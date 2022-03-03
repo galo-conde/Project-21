@@ -27,7 +27,7 @@ With this little addon which works directly in the editor, managing all your rep
 *Github Integration* offers the main functionalities provided by GitHub (and git itself), in a more accessible way.  
 Currenlty, you can:
 - Manage all of your public and private **repositories**, *including* the ones you share with organizations and the ones in which you are a collaborator (with proper permissions): create, delete, push and clone repositories within your Godot project
-- Manage all of your public and private **gists**: delete, edit and create gists with a functional text editor
+- Manage all of your public and private **gists**: delete, edit and create gists with a functional text editor.
 - Manage collaboration invitations, inviting user to your repositories or accept/decline invitations you have received
 
 ## How does it work?
