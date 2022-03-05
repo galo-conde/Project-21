@@ -3,7 +3,6 @@
 [ext_resource path="res://src/Effects scripts/Effect.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/World Sprites/forrestup.png" type="Texture" id=2]
 
-
 [sub_resource type="AtlasTexture" id=3]
 atlas = ExtResource( 2 )
 region = Rect2( 32, 144, 16, 16 )
