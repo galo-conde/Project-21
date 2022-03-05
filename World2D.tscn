@@ -500,14 +500,14 @@ position = Vector2( 32, 32 )
 [node name="WoodBox3" parent="YSort/Boxes" instance=ExtResource( 4 )]
 position = Vector2( 16, 72 )
 
+[node name="WoodBox4" parent="YSort/Boxes" instance=ExtResource( 4 )]
+position = Vector2( 173, 32 )
+
 [node name="Enemy" parent="YSort" instance=ExtResource( 5 )]
 position = Vector2( 125, 40 )
 
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
 position = Vector2( 78, 61 )
-
-[node name="WoodBox" parent="." instance=ExtResource( 4 )]
-position = Vector2( 173, 32 )
 
 [node name="HealthUI" parent="." instance=ExtResource( 6 )]
 

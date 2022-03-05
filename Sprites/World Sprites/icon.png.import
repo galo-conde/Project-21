@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Right leg up.png-a274d7aa52da410fa900ec6d88ae791f.stex"
+path="res://.import/icon.png-1390ecadf2aa3e79cec4bb0760e7e061.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/Enemy/Right leg up.png"
-dest_files=[ "res://.import/Right leg up.png-a274d7aa52da410fa900ec6d88ae791f.stex" ]
+source_file="res://Sprites/World Sprites/icon.png"
+dest_files=[ "res://.import/icon.png-1390ecadf2aa3e79cec4bb0760e7e061.stex" ]
 
 [params]
 
