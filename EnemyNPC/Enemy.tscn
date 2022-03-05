@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=2]
 
-[ext_resource path="res://Sprites/Enemy Sprites/cloakandleather.png" type="Texture" id=1]
+[ext_resource path="res://EnemyNPC/cloakandleather.png" type="Texture" id=1]
 [ext_resource path="res://OverLap/HurtBox.tscn" type="PackedScene" id=2]
 [ext_resource path="res://EnemyNPC/Enemy.gd" type="Script" id=3]
 [ext_resource path="res://EnemyNPC/Stats.tscn" type="PackedScene" id=4]
