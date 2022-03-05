@@ -18,7 +18,7 @@
 [ext_resource path="res://OverLap/HurtBox.tscn" type="PackedScene" id=16]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 3.00001
+radius = 2.0
 height = 1.99999
 
 [sub_resource type="Animation" id=35]
@@ -663,7 +663,7 @@ vframes = 2
 frame = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0, 6 )
+position = Vector2( 0, 7 )
 rotation = -1.5708
 shape = SubResource( 1 )
 
