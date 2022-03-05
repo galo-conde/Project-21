@@ -34,12 +34,16 @@ Our intetion was to create a fun game for everyone to play 21 without having to 
 - Godot game engine
 - Blender
 - Youtube
+- GitKraken
 
 ## Features
-- A working system for BlackJack: 
-	* The JackBlack game will have a rule system that allows a game of 21 work properly, aswell as a counting system that acounts the valuse of the cards from the players and dealer.
-- multiplayer gameplay
-	* The JackBlack game will be able to support at least 2 players not including the dealer.
+- Game functionality for the BlackJack game with a twist: 
+	* The JackBlack game is not nessesarly a proper blackjack game, but it has the premise of one.
+	* There are scenes in godot that do a veraity of things from being the game world, to just being stats place holder for a node.
+	* Scripts are not scenes, but are necessary component for the whole function of the game.
+- The visual look of the game
+	* There are multiple png files called sprites holding templates for character movement and static world objects
+	* Animimation is an important factor to scenes as they use sprites to convey life to enemy scenes and random object exploding.
 
 
 
