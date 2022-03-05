@@ -48,6 +48,10 @@ config/name="Practice Project"
 run/main_scene="res://World2D.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+PlayerStats="*res://PlayableCharacters/PlayerStats.tscn"
+
 [display]
 
 window/size/width=320

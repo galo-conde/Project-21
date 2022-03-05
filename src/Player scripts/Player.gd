@@ -12,14 +12,17 @@ enum { #creates variables that cant change, and are num from 0 to n+1
 
 var velocity = Vector2.ZERO
 var state = MOVE
+var stats = PlayerStats
 
 onready var animation_player = $AnimationPlayer
 onready var animation_tree = $AnimationTree
 #getting access to the root in animaiton tree#
 onready var animation_state = animation_tree.get("parameters/playback")
 onready var swordHitBox = $HitboxPivot/SwordHitBox
+onready var hurtBox = $HurtBox
 
 func _ready():
+	stats.connect("no_health", self, "queue_free")
 	animation_tree.active = true
 
 
@@ -74,3 +77,9 @@ func attack_state(delta):
 	
 func attack_animation_finished():
 	state = MOVE
+
+
+func _on_HurtBox_area_entered(area):
+	stats.health -= 1
+	hurtBox.start_invincibility(0.5)
+	hurtBox.create_hit_effect()
