@@ -18,8 +18,8 @@
 [ext_resource path="res://OverLap/HurtBox.tscn" type="PackedScene" id=16]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 2.0
-height = 1.99999
+radius = 1.81819
+height = 4.0
 
 [sub_resource type="Animation" id=35]
 resource_name = "AttackDown"

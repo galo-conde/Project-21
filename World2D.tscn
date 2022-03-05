@@ -487,7 +487,7 @@ position = Vector2( 128, 72 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="YSort/YSort/Building2"]
 position = Vector2( -128, -72 )
-polygon = PoolVector2Array( 240, 152, 152, 152, 152, 104, 248, 104, 248, 24, 8, 24, 8, 104, 104, 104, 104, 152, 8, 152, 8, 176, 288, 176, 288, 192, 0, 192, 0, 0, 256, 0, 256, 120, 160, 120, 160, 144, 240, 144 )
+polygon = PoolVector2Array( 240, 152, 152, 152, 152, 104, 248, 104, 248, 28, 8, 28, 8, 104, 104, 104, 104, 152, 8, 152, 8, 176, 288, 176, 288, 192, 0, 192, 0, 0, 256, 0, 256, 120, 160, 120, 160, 144, 240, 144 )
 
 [node name="Boxes" type="YSort" parent="YSort"]
 
