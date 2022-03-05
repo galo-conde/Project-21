@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/discord.png-cabaff2402b5a64a4a182b44af99f8dc.stex"
+path="res://.import/discord.png-df5ca294aa625a46ad290096224f6bc3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/github-integration/resources/user/discord.png"
-dest_files=[ "res://.import/discord.png-cabaff2402b5a64a4a182b44af99f8dc.stex" ]
+source_file="res://addons/github-integration/user/discord.png"
+dest_files=[ "res://.import/discord.png-df5ca294aa625a46ad290096224f6bc3.stex" ]
 
 [params]
 

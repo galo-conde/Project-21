@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/circle.png-ab6085011eacb640874b71ad62328370.stex"
+path="res://.import/circle.png-c3ba04f17b6d42fdf030b659f9304d97.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/github-integration/resources/user/circle.png"
-dest_files=[ "res://.import/circle.png-ab6085011eacb640874b71ad62328370.stex" ]
+source_file="res://addons/github-integration/user/circle.png"
+dest_files=[ "res://.import/circle.png-c3ba04f17b6d42fdf030b659f9304d97.stex" ]
 
 [params]
 
