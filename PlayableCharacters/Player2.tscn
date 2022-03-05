@@ -19,7 +19,7 @@
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 1.81819
-height = 4.0
+height = 4.36362
 
 [sub_resource type="Animation" id=35]
 resource_name = "AttackDown"
