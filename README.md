@@ -1,54 +1,98 @@
-<p align="right">
-<a href="https://discord.gg/KnJGY9S">
-  <img src="https://github.com/fenix-hub/ColoredBadges/blob/master/svg/social/discord.svg" alt="react" style="vertical-align:top; margin:6px 4px">
-</a>
-</p>
+# Project 21
+Authors: Brandon Abundis, Ronaldo Amaya, Galo Conde, James Helgren
+[](https://imgur.com/SiEPvaH)
 
-This plugin is now supported in [Godot Extended Library Discord](https://discord.gg/JNrcucg), check out the [Godot Extended Library Project](https://github.com/godot-extended-libraries)!
+## Overview
+TeamIO was formed during the Spring 2022 semester at Texas State University with the goal of building a web-based gambling game that could be enjoyed by a wide variety of people, including those not particularly experienced in gambling.
+> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
-<img src="addons/github-integration/github-logo.png" align="left" width="64" height="64">
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
+<!-- * [License](#license) -->
 
-# GitHub Integration
-A complete GitHub integration for your Godot Editor! Manage your project without even opening your browser.
 
-Author: *"Nicolo (fenix) Santilio"*  
-Version: *1.4.3*  
-Godot Version: *3.2.4-rc3*  
-Wiki: *[supported](https://github.com/fenix-hub/godot-engine.github-integration/wiki)*  
+## General Information
+TeamIO is comprised of Brandon Abundis, Ronaldo Amaya, Galo Conde, and James Helgren.
 
-<img align="center" src="addons/github-integration/screenshots/banner.png">
+In effort of making the game more appealing to non-gamblers we modified the rules of traditional Black Jack by incorporating UNO-style cheat cards such as REVERSE and SKIP, and creating graphical user interface where players can interact with cards and oppenents through movement during gameplay. Think BlackJack, Uno, and PacMan had baby.
 
-## What is this?
-*GitHub Integration* is a addon for Godot Engine that I've created mainly for a personal purpose.  
-Pushing and Pulling repositories while I'm working on Godot (especially if I'm under a GameJam) could take some time and force me to save the project, open the brwoser/git bash/git gui, and do all the stuff.  
-With this little addon which works directly in the editor, managing all your repositories will be very easy.  
+After making the game more appealing to a larger audience the secondary goal of our gaming platform was to provide the excitement of making wagers with friends without promoting detrimental side effects such as gambling addiction. To this end we developed a ranking system by which players, before gameplay begins,  can quickly cast votes to quantify the value of non-monetary prices (e.g. cooking dinner, ride to school, etc), distribute credits amongst players according the agreed value of the favor their are waging, and use the respectively allotted credits in wagers. Thus, users can feel the excitement of gambling without the stress of waging and potentially losing real money. 
 
-## What can it do?
-*Github Integration* offers the main functionalities provided by GitHub (and git itself), in a more accessible way.  
-Currenlty, you can:
-- Manage all of your public and private **repositories**, *including* the ones you share with organizations and the ones in which you are a collaborator (with proper permissions): create, delete, push and clone repositories within your Godot project
-- Manage all of your public and private **gists**: delete, edit and create gists with a functional text editor.
-- Manage collaboration invitations, inviting user to your repositories or accept/decline invitations you have received
+Our intetion was to create a fun game for everyone to play 21 without having to pay real money and without trying to risk them getting addicted to that game.
 
-## How does it work?
-I'm currently working on a [Wiki](https://github.com/fenix-hub/godot-engine.github-integration/wiki) for this plugin. It is a process that will take some time to complete since I want to provide a well-organized wiki with some basic explanations about GitHub itself. Anyway, I'm working on a user-friendly plugin, so everything should be the very ease to use for GitHub experienced users, and a little intuitive for people who never used GitHub or are not so experienced.
-If you want to see some screenshots you can find them here `addons/github-integration/screenshots`
 
-## Supporters page
-<table>
-  <tr>
-    <th><img src='https://avatars0.githubusercontent.com/u/9788627?s=64&v=4' alt='@masterworm2' width="64"/><br/><a href="https://github.com/masterworm2">masterworm2</a></th>
-    <th><img src='https://avatars0.githubusercontent.com/u/48778172?s=64&v=4' alt='@auctru' width="64"/><br/><a href="https://github.com/autcru">autcru</a></th> 
-  </tr>
-</table>
+## Technologies Used
+- Godot game engine
+- Blender
+- Youtube
 
-## :warning: Disclaimer  
-As a "work in progress" project, there is *no warranty* for any eventual issue and bug that may broke your project.  
-I don't assume any responsibility for possible corruptions of your project. It is always advisable to keep a copy of your project and check any changes you make in your Github repository.  
-
------------------
-> This text file was created via [TextEditor Integration](https://github.com/fenix-hub/godot-engine.text-editor) inside Godot Engine's Editor.
+## Features
+- A working system for BlackJack: 
+	* The JackBlack game will have a rule system that allows a game of 21 work properly, aswell as a counting system that acounts the valuse of the cards from the players and dealer.
+- multiplayer gameplay
+	* The JackBlack game will be able to support at least 2 players not including the dealer.
 
 
 
+## Screenshots
+![pictureHere](./img/screenshot.png)
+<!-- If you have screenshots you'd like to share, include them here. -->
 
+
+## Setup
+What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+
+Proceed to describe how to install / setup one's local environment / get started with the project.
+
+
+## Usage
+How does one go about using it?
+Provide various use cases and code examples here.
+
+`write-your-code-here`
+
+
+## Project Status
+Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+
+
+## Room for Improvement
+Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+
+Room for improvement:
+- Improvement to be done 1
+- Improvement to be done 2
+
+To do:
+- Feature to be added 1
+- Feature to be added 2
+
+
+## Acknowledgements
+- This project was inspired by...
+- This project was based on [this tutorial](https://www.example.com).
+- Hit animation sprite from [uheartbeast](https://github.com/uheartbeast/youtube-tutorials/blob/master/Action%20RPG/Action%20RPG%20Resources.zip)
+- The creator of the main character's pixel model: [RPG Main Character by Szadi art](https://szadiart.itch.io/rpg-main-character).
+- Enemy npc model is from [opengameart: LUNARSIGNALS](https://opengameart.org/content/overhead-action-rpg-hero-2)
+- Simple sprite effect by [opengameart: LUNARSIGNALS](https://opengameart.org/content/overhead-action-rpg-forest)
+- Background tileart from [opengameart: voec](https://opengameart.org/content/mythical-ruins-tileset)
+
+
+## Contact
+Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+
+
+<!-- Optional -->
+<!-- ## License -->
+<!-- This project is open source and available under the [... License](). -->
+
+<!-- You don't have to include all sections - just the one's relevant to your project -->
