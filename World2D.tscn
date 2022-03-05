@@ -1,10 +1,11 @@
-[gd_scene load_steps=52 format=2]
+[gd_scene load_steps=53 format=2]
 
 [ext_resource path="res://Sprites/World Sprites/dungeon_sheet.png" type="Texture" id=1]
 [ext_resource path="res://PlayableCharacters/Player2.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Objects/building_tunnle_.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Objects/WoodBox.tscn" type="PackedScene" id=4]
 [ext_resource path="res://EnemyNPC/Enemy.tscn" type="PackedScene" id=5]
+[ext_resource path="res://UI/HealthUI.tscn" type="PackedScene" id=6]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
@@ -507,3 +508,7 @@ position = Vector2( 78, 61 )
 
 [node name="WoodBox" parent="." instance=ExtResource( 4 )]
 position = Vector2( 173, 32 )
+
+[node name="HealthUI" parent="." instance=ExtResource( 6 )]
+
+[editable path="HealthUI"]
