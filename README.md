@@ -83,6 +83,9 @@ Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are
 	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/GameOver.tscn
 
 ## Next Steps
+- change the bakcground of the game to resemble a casino
+- find a way to display all cards
+- make a visual bouncer as the enemy
 
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
