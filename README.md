@@ -1,9 +1,13 @@
 # Project 21
+
+![](https://i.imgur.com/I8qLz1s.jpg)
+
+
 Authors: Brandon Abundis, Ronaldo Amaya, Galo Conde, James Helgren
 [](https://imgur.com/SiEPvaH)
 
 ## Overview
-TeamIO was formed during the Spring 2022 semester at Texas State University with the goal of building a web-based gambling game that could be enjoyed by a wide variety of people, including those not particularly experienced in gambling.
+TeamIO was formed during the Spring 2022 semester at Texas State University with the goal of building a game around the aspect of gambling in a non-traditional way that truly shows how ridiculous gambling really is. This game can be enjoyed by a wide variety of people, including those not particularly experienced in gambling.
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
