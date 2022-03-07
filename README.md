@@ -74,6 +74,8 @@ Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are
 - Galo:
 - James: 
 
+## Next Steps
+
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
