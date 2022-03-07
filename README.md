@@ -74,14 +74,13 @@ Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are
 
 ## Contributions
 - Brandon: Added multiple scripts that focused on the player to give the gameplay a fundation to work on.
-	- URL reference1: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Player%20scripts/Player.gd
+	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Player%20scripts/Player.gd
 - Ronaldo: Worked on getting a sprite for the bouncer AI, added a GameOver Screen, and was asking the group to meet up for frequent meetings.
-	- URL reference1: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Sprites/Enemy%20Sprites/
-	- URL reference2: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/
+	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/GameOver.tscn
 - Galo:
-	- URL reference1: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Cards/
+	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Cards/Cards.gd
 - James: 
-	- URL reference1:
+	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/GameOver.tscn
 
 ## Next Steps
 
