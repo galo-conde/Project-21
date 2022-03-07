@@ -27,7 +27,7 @@ TeamIO was formed during the Spring 2022 semester at Texas State University with
 ## General Information
 TeamIO is comprised of Brandon Abundis, Ronaldo Amaya, Galo Conde, and James Helgren.
 
-In effort of making the game more appealing to non-gamblers we modified the rules of traditional Black Jack by incorporating UNO-style cheat cards such as REVERSE and SKIP, and creating graphical user interface where players can interact with cards and oppenents through movement during gameplay. Think BlackJack, Uno, and PacMan had baby.
+In effort of making the game more appealing to non-gamblers we modified the rules of traditional Black Jack and then placing those rules into a game that doesn't even resembel a traditional Black Jaack Game, where players can interact with objects that show cards and bouncers who try to get you out when playing againts oppenents during gameplay. There is also absurd events that can happen that could break the Black Jack game like uno taking over. Think BlackJack, Uno, and PacMan had baby.
 
 After making the game more appealing to a larger audience the secondary goal of our gaming platform was to provide the excitement of making wagers with friends without promoting detrimental side effects such as gambling addiction. To this end we developed a ranking system by which players, before gameplay begins,  can quickly cast votes to quantify the value of non-monetary prices (e.g. cooking dinner, ride to school, etc), distribute credits amongst players according the agreed value of the favor their are waging, and use the respectively allotted credits in wagers. Thus, users can feel the excitement of gambling without the stress of waging and potentially losing real money. 
 
@@ -35,10 +35,10 @@ Our intetion was to create a fun game for everyone to play 21 without having to 
 
 
 ## Technologies Used
+- Discord
 - Godot game engine
-- Blender
-- Youtube
 - GitKraken
+- Youtube
 
 ## Features
 - Game functionality for the BlackJack game with a twist: 
