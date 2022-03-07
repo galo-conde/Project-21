@@ -753,6 +753,12 @@ collision_mask = 0
 format = 1
 tile_data = PoolIntArray( 0, 0, 5, 1, 0, 6, 2, 0, 6, 3, 0, 6, 4, 0, 6, 5, 0, 6, 6, 0, 6, 7, 0, 6, 8, 0, 6, 9, 0, 6, 10, 0, 6, 11, 0, 6, 12, 0, 6, 13, 0, 6, 14, 0, 6, 15, 0, 7, 65536, 0, 65541, 65537, 0, 327689, 65538, 0, 327689, 65539, 0, 458754, 65540, 0, 327689, 65541, 0, 327689, 65542, 0, 458754, 65543, 0, 327689, 65544, 0, 327689, 65545, 0, 458754, 65546, 0, 327689, 65547, 0, 327689, 65548, 0, 393220, 65549, 0, 327689, 65550, 0, 327689, 65551, 0, 65543, 131072, 0, 131077, 131087, 0, 131079, 196608, 0, 196612, 196620, 0, 196626, 196621, 0, 196627, 196623, 0, 196611, 262144, 0, 262148, 262156, 0, 262162, 262157, 0, 262163, 262159, 0, 262147, 327680, 0, 131077, 327692, 0, 327698, 327693, 0, 327699, 327695, 0, 131079, 393216, 0, 196613, 393217, 0, 196614, 393218, 0, 196614, 393219, 0, 196614, 393220, 0, 196614, 393221, 0, 196614, 393222, 0, 9, 393225, 0, 8, 393226, 0, 196614, 393227, 0, 196614, 393228, 0, 196614, 393229, 0, 196614, 393230, 0, 196614, 393231, 0, 196615, 458758, 0, 65545, 458761, 0, 65544, 458769, 0, 196626, 458770, 0, 196627, 524289, 0, 131073, 524290, 0, 131073, 524291, 0, 131073, 524292, 0, 131073, 524293, 0, 131073, 524294, 0, 131081, 524297, 0, 131080, 524298, 0, 131073, 524299, 0, 131073, 524300, 0, 131073, 524301, 0, 131073, 524302, 0, 131073, 524305, 0, 262162, 524306, 0, 262163, 589825, 0, 327689, 589826, 0, 327689, 589827, 0, 458754, 589828, 0, 327689, 589829, 0, 327689, 589830, 0, 196617, 589833, 0, 196616, 589834, 0, 327689, 589835, 0, 327689, 589836, 0, 458754, 589837, 0, 327689, 589838, 0, 327689, 589841, 0, 327698, 589842, 0, 327699, 720896, 0, 1, 720897, 0, 1, 720898, 0, 1, 720899, 0, 1, 720900, 0, 1, 720901, 0, 1, 720902, 0, 1, 720903, 0, 1, 720904, 0, 1, 720905, 0, 1, 720906, 0, 1, 720907, 0, 1, 720908, 0, 1, 720909, 0, 1, 720910, 0, 1, 720911, 0, 1, 720912, 0, 1, 720913, 0, 1 )
 
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 78, 61 )
+current = true
+process_mode = 0
+smoothing_enabled = true
+
 [node name="YSort" type="YSort" parent="."]
 
 [node name="YSort" type="YSort" parent="YSort"]
@@ -782,6 +788,12 @@ position = Vector2( 16, 72 )
 [node name="WoodBox4" parent="YSort/Boxes" instance=ExtResource( 4 )]
 position = Vector2( 173, 32 )
 
+[node name="Player" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 78, 61 )
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="YSort/Player"]
+remote_path = NodePath("../../../Camera2D")
+
 [node name="Enemy" parent="YSort" instance=ExtResource( 5 )]
 position = Vector2( 125, 40 )
 
@@ -791,15 +803,8 @@ position = Vector2( 158, 47 )
 [node name="Enemy3" parent="YSort" instance=ExtResource( 5 )]
 position = Vector2( 171, 62 )
 
-[node name="Enemy4" parent="YSort" instance=ExtResource( 5 )]
-position = Vector2( 192, 83 )
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
 
-[node name="Player" parent="YSort" instance=ExtResource( 2 )]
-position = Vector2( 78, 61 )
+[node name="HealthUI" parent="CanvasLayer" instance=ExtResource( 6 )]
 
-[node name="Camera2D" type="Camera2D" parent="YSort/Player"]
-current = true
-
-[node name="HealthUI" parent="." instance=ExtResource( 6 )]
-
-[editable path="HealthUI"]
+[editable path="CanvasLayer/HealthUI"]
