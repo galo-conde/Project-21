@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cloakandleather.png-03e599a5df22938a5813e1f497f1cea2.stex"
+path="res://.import/icon.png-1390ecadf2aa3e79cec4bb0760e7e061.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://EnemyNPC/cloakandleather.png"
-dest_files=[ "res://.import/cloakandleather.png-03e599a5df22938a5813e1f497f1cea2.stex" ]
+source_file="res://Sprites/World Sprites/icon.png"
+dest_files=[ "res://.import/icon.png-1390ecadf2aa3e79cec4bb0760e7e061.stex" ]
 
 [params]
 

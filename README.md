@@ -1,9 +1,13 @@
 # Project 21
+
+![](https://i.imgur.com/I8qLz1s.jpg)
+
+
 Authors: Brandon Abundis, Ronaldo Amaya, Galo Conde, James Helgren
 [](https://imgur.com/SiEPvaH)
 
 ## Overview
-TeamIO was formed during the Spring 2022 semester at Texas State University with the goal of building a web-based gambling game that could be enjoyed by a wide variety of people, including those not particularly experienced in gambling.
+TeamIO was formed during the Spring 2022 semester at Texas State University with the goal of building a game around the aspect of gambling in a non-traditional way that truly shows how ridiculous gambling really is. This game can be enjoyed by a wide variety of people, including those not particularly experienced in gambling.
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
@@ -23,7 +27,7 @@ TeamIO was formed during the Spring 2022 semester at Texas State University with
 ## General Information
 TeamIO is comprised of Brandon Abundis, Ronaldo Amaya, Galo Conde, and James Helgren.
 
-In effort of making the game more appealing to non-gamblers we modified the rules of traditional Black Jack by incorporating UNO-style cheat cards such as REVERSE and SKIP, and creating graphical user interface where players can interact with cards and oppenents through movement during gameplay. Think BlackJack, Uno, and PacMan had baby.
+In effort of making the game more appealing to non-gamblers we modified the rules of traditional Black Jack and then placing those rules into a game that doesn't even resembel a traditional Black Jaack Game, where players can interact with objects that show cards and bouncers who try to get you out when playing againts oppenents during gameplay. There is also absurd events that can happen that could break the Black Jack game like uno taking over. Think BlackJack, Uno, and PacMan had baby.
 
 After making the game more appealing to a larger audience the secondary goal of our gaming platform was to provide the excitement of making wagers with friends without promoting detrimental side effects such as gambling addiction. To this end we developed a ranking system by which players, before gameplay begins,  can quickly cast votes to quantify the value of non-monetary prices (e.g. cooking dinner, ride to school, etc), distribute credits amongst players according the agreed value of the favor their are waging, and use the respectively allotted credits in wagers. Thus, users can feel the excitement of gambling without the stress of waging and potentially losing real money. 
 
@@ -31,15 +35,19 @@ Our intetion was to create a fun game for everyone to play 21 without having to 
 
 
 ## Technologies Used
+- Discord
 - Godot game engine
-- Blender
+- GitKraken
 - Youtube
 
 ## Features
-- A working system for BlackJack: 
-	* The JackBlack game will have a rule system that allows a game of 21 work properly, aswell as a counting system that acounts the valuse of the cards from the players and dealer.
-- multiplayer gameplay
-	* The JackBlack game will be able to support at least 2 players not including the dealer.
+- Game functionality for the BlackJack game with a twist: 
+	* The JackBlack game is not nessesarly a proper blackjack game, but it has the premise of one.
+	* There are scenes in godot that do a veraity of things from being the game world, to just being stats place holder for a node.
+	* Scripts are not scenes, but are necessary component for the whole function of the game.
+- The visual look of the game
+	* There are multiple png files called sprites holding templates for character movement and static world objects
+	* Animimation is an important factor to scenes as they use sprites to convey life to enemy scenes and random object exploding.
 
 
 
@@ -64,6 +72,21 @@ Provide various use cases and code examples here.
 ## Project Status
 Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
 
+## Contributions
+- Brandon: Added multiple scripts that focused on the player to give the gameplay a fundation to work on.
+	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Player%20scripts/Player.gd
+- Ronaldo: Worked on getting a sprite for the bouncer AI, added a GameOver Screen, and was asking the group to meet up for frequent meetings.
+	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/GameOver.tscn
+- Galo: Added scripts that implements card deck functionality and assigns card values to dealer and player1 once then have destroyed a box. 
+	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Cards/Cards.gd
+	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object scripts/WoodBox.gd
+- James: 
+	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/GameOver.tscn
+
+## Next Steps
+- change the bakcground of the game to resemble a casino
+- find a way to display all cards
+- make a visual bouncer as the enemy
 
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
@@ -78,13 +101,14 @@ To do:
 
 
 ## Acknowledgements
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was based on [this tutorial](https://www.youtube.com/watch?v=mAbG8Oi-SvQ&list=PL9FzW-m48fn2SlrW0KoLT4n5egNdX-W9a).
 - Hit animation sprite from [uheartbeast](https://github.com/uheartbeast/youtube-tutorials/blob/master/Action%20RPG/Action%20RPG%20Resources.zip)
 - The creator of the main character's pixel model: [RPG Main Character by Szadi art](https://szadiart.itch.io/rpg-main-character).
 - Enemy npc model is from [opengameart: LUNARSIGNALS](https://opengameart.org/content/overhead-action-rpg-hero-2)
 - Simple sprite effect by [opengameart: LUNARSIGNALS](https://opengameart.org/content/overhead-action-rpg-forest)
 - Background tileart from [opengameart: voec](https://opengameart.org/content/mythical-ruins-tileset)
+- Ronaldo's Sprite's left leg made in [pixilart.com/draw](Sprites/Enemy Sprites/Left leg up.png.import)
+- Ronaldo's Sprite's right leg made in [pixilart.com/draw](Sprites/Enemy Sprites/Right leg up.png.import)
 
 
 ## Contact

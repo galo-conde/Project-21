@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Left leg up.png-92e3c495143661d6299e360dca0df750.stex"
+path="res://.import/robisplash_logo.png-c68602a65298eb647234208fe11f0c09.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/Enemy/Left leg up.png"
-dest_files=[ "res://.import/Left leg up.png-92e3c495143661d6299e360dca0df750.stex" ]
+source_file="res://Screens/robisplash_logo.png"
+dest_files=[ "res://.import/robisplash_logo.png-c68602a65298eb647234208fe11f0c09.stex" ]
 
 [params]
 
