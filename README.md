@@ -70,7 +70,7 @@ Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are
 
 ## Contributions
 - Brandon:
-- Ronaldo:
+- Ronaldo: Worked on getting a sprite for the bouncer AI, added a GameOver Screen, and was asking the group to meet up for frequent meetings.
 - Galo:
 - James: 
 
@@ -95,6 +95,8 @@ To do:
 - Enemy npc model is from [opengameart: LUNARSIGNALS](https://opengameart.org/content/overhead-action-rpg-hero-2)
 - Simple sprite effect by [opengameart: LUNARSIGNALS](https://opengameart.org/content/overhead-action-rpg-forest)
 - Background tileart from [opengameart: voec](https://opengameart.org/content/mythical-ruins-tileset)
+- Ronaldo's Sprite's left leg made in [pixilart.com/draw](Sprites/Enemy Sprites/Left leg up.png.import)
+- Ronaldo's Sprite's right leg made in [pixilart.com/draw](Sprites/Enemy Sprites/Right leg up.png.import)
 
 
 ## Contact
