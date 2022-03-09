@@ -80,7 +80,7 @@ Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are
 - Galo: Added scripts that implements card deck functionality and assigns card values to dealer and player1 once then have destroyed a box. 
 	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Cards/Cards.gd
 	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object scripts/WoodBox.gd
-- James: 
+- James: Added a Start Screen scene and accompanying script, worked on researching player/NPC pathing (to be implemented in future sprint).
 	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/GameOver.tscn
 
 ## Next Steps
