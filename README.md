@@ -74,6 +74,9 @@ ___
 *Note: Research implementations and findings located in Research file within this directory*
 Research file direct link: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/RESEARCH
 
+![](https://i.imgur.com/kEL3uPn.jpg)
+![](https://i.imgur.com/Z2nK0C1.jpg)
+
 ## Contributions
 - Brandon: Added multiple scripts that focused on the player to give the gameplay a fundation to work on.
 	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Player%20scripts/Player.gd
