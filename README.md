@@ -84,14 +84,20 @@ Research file direct link: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/
 	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/WoodBox.gd
 - James: Added a Start Screen scene and accompanying script, worked on researching player/NPC pathing (to be implemented in future sprint).
 	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/GameOver.tscn
+	
+	
+## Next Steps
+- Galo
+	- add a scoreboard display 
+- Brandon
+	- add more to the gameplay
+- James
+	- find a way to display the start
+- Ronaldo
+	- make a visual bouncer as the enemy
 ___
 ## Project Status
 Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
-## Next Steps
-- change the bakcground of the game to resemble a casino
-- find a way to display the start/end screen
-- make a visual bouncer as the enemy
 
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
