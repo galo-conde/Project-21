@@ -69,8 +69,10 @@ Provide various use cases and code examples here.
 `write-your-code-here`
 
 
-## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+___
+## Sprint 1
+*Note: Research implementations and findings located in Research file within this directory*
+Research file direct link: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/RESEARCH
 
 ## Contributions
 - Brandon: Added multiple scripts that focused on the player to give the gameplay a fundation to work on.
@@ -82,10 +84,13 @@ Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are
 	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/WoodBox.gd
 - James: Added a Start Screen scene and accompanying script, worked on researching player/NPC pathing (to be implemented in future sprint).
 	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/GameOver.tscn
+___
+## Project Status
+Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
 
 ## Next Steps
 - change the bakcground of the game to resemble a casino
-- find a way to display all cards
+- find a way to display the start/end screen
 - make a visual bouncer as the enemy
 
 ## Room for Improvement
