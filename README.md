@@ -82,6 +82,7 @@ Research file direct link: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/
 	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Player%20scripts/Player.gd
 - Ronaldo: Worked on getting a sprite for the bouncer AI, added a GameOver Screen, and was asking the group to meet up for frequent meetings.
 	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/GameOver.tscn
+	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/EnemyNPC/Enemy.tscn
 - Galo: Added scripts that implements card deck functionality and assigns card values to dealer and player1 once then have destroyed a box. 
 	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Cards/Cards.gd
 	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/WoodBox.gd
