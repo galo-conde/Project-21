@@ -50,12 +50,6 @@ Our intetion was to create a fun game for everyone to play 21 without having to 
 	* Animimation is an important factor to scenes as they use sprites to convey life to enemy scenes and random object exploding.
 
 
-
-## Screenshots
-![pictureHere](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
-
-
 ## Setup
 What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
