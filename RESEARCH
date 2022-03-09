@@ -1,0 +1,71 @@
+Research for Sprint 1:
+________________________
+   #Branodn Abundis#
+    -Tasks:
+          1). Change player appearance
+          2). Add player hearts in UI
+          3). Create a dumb AI
+          
+        *research new sprite template for a character, add scripts for the Player health and enemy Ai.
+        
+    -Research Links:
+            Game design: https://www.youtube.com/watch?v=mAbG8Oi-SvQ&list=PL9FzW-m48fn2SlrW0KoLT4n5egNdX-W9a
+            
+    -Artifacts: 
+            https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Player%20scripts/Player.gd
+            https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/UI/HealthUI.tscn
+            https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/EnemyNPC/Enemy.tscn
+________________________
+   #Galo Conde#
+    -Tasks:
+          1). Research godot engine
+          2). add card deck functionality
+          3). Wood box display card value
+        *Become familiarized with different Godot Engine elements in sample card game
+        Research different ways to implement a working card deck in Godot script.
+        
+    -Research Links:
+            Setting Card Game: https://www.youtube.com/watch?v=WjT5sLMD7Kw&list=PLkhDORpHGmvrW7ByiEL-M9JU_rl27QzmI
+            Card game: https://github.com/db0/godot-card-game-framework
+            
+    -Artifacts: 
+            https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Cards/Cards.gd
+            https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/WoodBox.gd
+________________________
+   #James Helgren#
+    -Tasks:
+          1). research player/npc pathing
+          2). create 'statrt' screen
+          3). Be super comfortable with GitKraken
+          
+        *I started Sprint 1 by looking into the Godot Engine and its game-creating capabilities after Brandon suggested we use it for the project. 
+        After reading up on Godot, my vision for the game design was comparable to PacMan: a player must navigate tight hallways and pick up items (cards) while avoiding enemies (bouncers) chasing him/her.
+        Despite never creating a game before, I understood that implementing a “competent” enemy with reasonable pathing to the player would be tricky. After excessive research in Sprint 1, I can definitively say that it is very tricky. 
+        I also made a “Start Screen” scene.
+        
+    -Research Links:
+            PacMan Guide: pacmancode.com/vectors
+            
+    -Artifacts: 
+            https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/GUI%20scripts/StartScreen.gd
+            https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/StartScreen.tscn
+            https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Screens/
+________________________   
+   #Ronaldo Amaya#
+    -Tasks:
+          1). create npc "bouncer" avatar
+          2). Learn how godot works
+          3). create game over screen
+        *Began with looking for a bouncer sprite, however there is not much out there, so I will end up modifing a exist character sprite into a bouncer.
+        Looked up tutorials for godot and how the enviornment works.
+        Created an endscreen scene
+        
+   -Research Links:
+           
+           
+    -Artifacts: 
+            https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/GameOver.tscn
+            https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/GUI%20scripts/GameOver.gd
+            
+    
+------------------------------------------------------------------------------------------------------------------------------------
