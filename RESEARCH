@@ -35,7 +35,7 @@ ________________________
    #James Helgren#
     -Tasks:
           1). research player/npc pathing
-          2). create 'statrt' screen
+          2). create 'start' screen
           3). Be super comfortable with GitKraken
           
         *I started Sprint 1 by looking into the Godot Engine and its game-creating capabilities after Brandon suggested we use it for the project. 
@@ -61,7 +61,8 @@ ________________________
         Created an endscreen scene
         
    -Research Links:
-           
+           edited bouncer sprite: https://www.pixilart.com/draw
+           game over scrren: https://www.youtube.com/watch?v=aPN7k7irDnY
            
     -Artifacts: 
             https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/GameOver.tscn
