@@ -65,11 +65,12 @@ Provide various use cases and code examples here.
 
 ___
 ## Sprint 1
-*Note: Research implementations and findings located in Research file within this directory*
-Research file direct link: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/RESEARCH
-
 ![](https://i.imgur.com/kEL3uPn.jpg)
 ![](https://i.imgur.com/Z2nK0C1.jpg)
+
+*Note: Research implementations and findings located in Research file within this directory*
+
+`Research` file direct link: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/RESEARCH
 
 ## Contributions
 - **Brandon**: "Added multiple scripts that focused on the player to give the gameplay a fundation to work on."
