@@ -72,16 +72,29 @@ Research file direct link: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/
 ![](https://i.imgur.com/Z2nK0C1.jpg)
 
 ## Contributions
-- Brandon: Added multiple scripts that focused on the player to give the gameplay a fundation to work on.
-	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Player%20scripts/Player.gd
-- Ronaldo: Worked on getting a sprite for the bouncer AI, added a GameOver Screen, and was asking the group to meet up for frequent meetings.
-	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/GameOver.tscn
-	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/EnemyNPC/Enemy.tscn
-- Galo: Added scripts that implements card deck functionality and assigns card values to dealer and player1 once then have destroyed a box. 
-	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Cards/Cards.gd
-	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/WoodBox.gd
-- James: Added a Start Screen scene and accompanying script, worked on researching player/NPC pathing (to be implemented in future sprint).
-	- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/GameOver.tscn
+- **Brandon**: "Added multiple scripts that focused on the player to give the gameplay a fundation to work on."
+	- `Jira Task: Add player hearts in UI`
+		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/UI%20scripts/HealthUI.gd
+	- `Jira Task: create a dumb npc`
+		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/EnemyAI%20scripts/Enemy.gd  
+<br />
+- **Ronaldo**: "Worked on getting a sprite for the bouncer AI, added a GameOver Screen, and was asking the group to meet up for frequent meetings."
+	- `Jira Task: create npc "bouncer" avatar`
+		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Sprites/Enemy%20Sprites/
+	- `Jira Task: create game over screen`
+		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/GameOver.tscn
+		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/GUI%20scripts/GameOver.gd  
+<br />
+- **Galo**: "Added scripts that implements card deck functionality and assigns card values to dealer and player1 once then have destroyed a box." 
+	- `Jira Task: add card deck functionality`
+		- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Cards/Cards.gd
+	- `Jira Task: Wood box display card value`
+		- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/WoodBox.gd  
+<br />	
+- **James**: "Added a Start Screen scene and accompanying script, worked on researching player/NPC pathing (to be implemented in future sprint)."
+	- `Jira Task: *create start screen*`
+		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/StartScreen.tscn
+		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/GUI%20scripts/StartScreen.gd
 	
 	
 ## Next Steps
