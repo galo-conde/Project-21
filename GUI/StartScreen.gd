@@ -30,7 +30,7 @@ func _input(event):
 		match selected_menu:
 			0:
 				# New game
-				get_tree().change_scene("res://Scenes/World2D.tscn")
+				get_tree().change_scene("res://World2D.tscn")
 			1:
 				# Quit game
 				get_tree().quit()
