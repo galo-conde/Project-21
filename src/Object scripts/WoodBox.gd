@@ -1,7 +1,7 @@
 extends Node2D
 
 const WoodBoxEffect = preload("res://Effects/WoodBoxEffect.tscn")
-const CardEffect = preload("res://Cards/Cards.gd")
+const CardEffect = preload("res://src/Cards.gd")
 
 func create_WoodBoxEffect():
 	var woodBoxEffect = WoodBoxEffect.instance() #instance the scene
