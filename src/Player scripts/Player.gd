@@ -16,7 +16,7 @@ var stats = PlayerStats
 
 onready var animation_player = $AnimationPlayer
 onready var animation_tree = $AnimationTree
-#getting access to the root in animaiton tree#
+#getting access to the root in animation tree#
 onready var animation_state = animation_tree.get("parameters/playback")
 onready var swordHitBox = $HitboxPivot/SwordHitBox
 onready var hurtBox = $HurtBox
