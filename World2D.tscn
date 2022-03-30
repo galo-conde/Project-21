@@ -813,6 +813,7 @@ position = Vector2( 171, 62 )
 [node name="HealthUI" parent="CanvasLayer" instance=ExtResource( 6 )]
 
 [node name="Coin" type="Area2D" parent="."]
+show_behind_parent = true
 position = Vector2( 20, 75 )
 scale = Vector2( 0.1, 0.1 )
 script = ExtResource( 9 )
