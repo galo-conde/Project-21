@@ -83,3 +83,6 @@ func _on_HurtBox_area_entered(area):
 	stats.health -= 1
 	hurtBox.start_invincibility(1)
 	hurtBox.create_hit_effect()
+	# added for the end screen menu to appear
+	if stats.health <= 0:
+		get_tree().change_scene("res://UI/GameOver.tscn")

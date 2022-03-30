@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Fonts/Schrödinger.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://UI/Fonts/Schrödinger.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Sounds/night-chip.ogg" type="AudioStream" id=2]
 [ext_resource path="res://GUI/StartScreen.gd" type="Script" id=3]
 
@@ -50,4 +50,6 @@ valign = 1
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 2 )
+volume_db = -7.866
+pitch_scale = 0.86
 autoplay = true
