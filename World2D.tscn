@@ -1,4 +1,4 @@
-[gd_scene load_steps=55 format=2]
+[gd_scene load_steps=58 format=2]
 
 [ext_resource path="res://Sprites/World Sprites/dungeon_sheet.png" type="Texture" id=1]
 [ext_resource path="res://PlayableCharacters/Player2.tscn" type="PackedScene" id=2]
@@ -7,6 +7,8 @@
 [ext_resource path="res://EnemyNPC/Enemy.tscn" type="PackedScene" id=5]
 [ext_resource path="res://UI/HealthUI.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Sprites/World Sprites/myth.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/World Sprites/coin - Copy.png" type="Texture" id=8]
+[ext_resource path="res://src/Object scripts/Coin.gd" type="Script" id=9]
 
 [sub_resource type="TileSet" id=47]
 0/name = "myth.png 0"
@@ -724,6 +726,9 @@ points = PoolVector2Array( 16, 11, 16, 16, 8, 16, 8, 11 )
 } ]
 0/z_index = 0
 
+[sub_resource type="CircleShape2D" id=48]
+radius = 47.0425
+
 [node name="World2D" type="Node2D"]
 
 [node name="GroundGrey" type="Sprite" parent="."]
@@ -806,5 +811,20 @@ position = Vector2( 171, 62 )
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="HealthUI" parent="CanvasLayer" instance=ExtResource( 6 )]
+
+[node name="Coin" type="Area2D" parent="."]
+position = Vector2( 20, 75 )
+scale = Vector2( 0.1, 0.1 )
+script = ExtResource( 9 )
+
+[node name="Sprite" type="Sprite" parent="Coin"]
+position = Vector2( 270, 51 )
+texture = ExtResource( 8 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Coin"]
+position = Vector2( 271, 52 )
+shape = SubResource( 48 )
+
+[connection signal="body_entered" from="Coin" to="Coin" method="_on_Coin_body_entered"]
 
 [editable path="CanvasLayer/HealthUI"]
