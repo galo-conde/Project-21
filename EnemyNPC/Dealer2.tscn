@@ -1,0 +1,44 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Dealer2.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Dealer Sprites/Right leg up Dealer.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Dealer Sprites/Standing still Dealer.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Dealer Sprites/Left leg up Dealer.png" type="Texture" id=4]
+[ext_resource path="res://OverLap/HurtBox.tscn" type="PackedScene" id=5]
+[ext_resource path="res://EnemyNPC/Stats.tscn" type="PackedScene" id=6]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 5.0
+height = 8.0
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=3]
+
+[node name="Dealer2" type="KinematicBody2D"]
+script = ExtResource( 1 )
+
+[node name="HurtBox" parent="." instance=ExtResource( 5 )]
+collision_layer = 8
+
+[node name="CollisionShape2D" parent="HurtBox" index="0"]
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 2 )
+frame = 3
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 3 )
+
+[node name="Stats" parent="." instance=ExtResource( 6 )]
+max_health = 3
+
+[editable path="HurtBox"]
