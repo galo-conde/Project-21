@@ -51,6 +51,7 @@ config/icon="res://Sprites/World Sprites/icon.png"
 [autoload]
 
 PlayerStats="*res://PlayableCharacters/PlayerStats.tscn"
+DeckManager="*res://DeckManager.gd"
 
 [display]
 

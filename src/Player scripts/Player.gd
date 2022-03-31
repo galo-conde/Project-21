@@ -20,11 +20,14 @@ onready var animation_tree = $AnimationTree
 onready var animation_state = animation_tree.get("parameters/playback")
 onready var swordHitBox = $HitboxPivot/SwordHitBox
 onready var hurtBox = $HurtBox
+onready var cardsMan = $"/root/DeckManager"
+
 
 func _ready():
 	stats.connect("no_health", self, "queue_free")
 	animation_tree.active = true
-
+	cardsMan.cards.addField() #create Player Hand
+	#var hand = cardsMan.cards.fields[1] #create variable to access Player Hand
 
 func _physics_process(delta):
 	match state: #ennum which is close to a switch function
@@ -77,9 +80,25 @@ func attack_state(delta):
 	
 func attack_animation_finished():
 	state = MOVE
+	hit_card()
 
 
 func _on_HurtBox_area_entered(area):
 	stats.health -= 1
 	hurtBox.start_invincibility(1)
 	hurtBox.create_hit_effect()
+
+func hit_card():
+	var hand = cardsMan.cards.fields[1] #create variable to access Player1 Hand
+	cardsMan.cards.drawCard(hand) #draw card from deck to Player1 Hand
+
+	var i = 0
+	var card
+	
+	#show each card in Player1 Hand
+	print("Player1 Hand")
+	while i < hand.size(): 
+		card = cardsMan.cards.getCard(1, i)
+		print(card)
+		print(cardsMan.cards.getDescStr(card))
+		i += 1
