@@ -1,6 +1,6 @@
-[gd_scene load_steps=26 format=2]
+[gd_scene load_steps=20 format=2]
 
-[ext_resource path="res://Sprites/World Sprites/dungeon_sheet.png" type="Texture" id=1]
+[ext_resource path="res://Casino Floor/Furniture 4.png" type="Texture" id=1]
 [ext_resource path="res://PlayableCharacters/Player2.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Casino Floor/4 Walls, Floor & Doors.png" type="Texture" id=3]
 [ext_resource path="res://Objects/WoodBox.tscn" type="PackedScene" id=4]
@@ -10,7 +10,10 @@
 [ext_resource path="res://Casino Floor/4 BigSet.png" type="Texture" id=8]
 [ext_resource path="res://Casino Floor/Carpets 4.png" type="Texture" id=9]
 [ext_resource path="res://EnemyNPC/Dealer2.tscn" type="PackedScene" id=10]
-[ext_resource path="res://Casino Floor/4 BigSet 2.png" type="Texture" id=11]
+[ext_resource path="res://Objects/Plant.tscn" type="PackedScene" id=11]
+[ext_resource path="res://Objects/Toliet.tscn" type="PackedScene" id=12]
+[ext_resource path="res://Objects/BookShelf.tscn" type="PackedScene" id=13]
+[ext_resource path="res://Objects/Stool.tscn" type="PackedScene" id=14]
 
 [sub_resource type="TileSet" id=47]
 0/name = "myth.png 0"
@@ -280,156 +283,8 @@
 18/shapes = [  ]
 18/z_index = 0
 
-[sub_resource type="ConvexPolygonShape2D" id=1]
-points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=2]
-points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=3]
-points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=4]
-points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=5]
-points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=6]
-points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=7]
-points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=8]
-points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=9]
-points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=10]
-points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=11]
-points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
-
-[sub_resource type="TileSet" id=12]
-0/name = "dungeon_sheet.png 0"
-0/texture = ExtResource( 1 )
-0/tex_offset = Vector2( 0, 0 )
-0/modulate = Color( 1, 1, 1, 1 )
-0/region = Rect2( 0, 0, 384, 160 )
-0/tile_mode = 1
-0/autotile/bitmask_mode = 1
-0/autotile/bitmask_flags = [ Vector2( 0, 0 ), 256, Vector2( 0, 1 ), 292, Vector2( 0, 2 ), 4, Vector2( 0, 3 ), 176, Vector2( 0, 4 ), 50, Vector2( 1, 0 ), 448, Vector2( 1, 1 ), 511, Vector2( 1, 2 ), 7, Vector2( 1, 3 ), 152, Vector2( 1, 4 ), 26, Vector2( 2, 0 ), 64, Vector2( 2, 1 ), 73, Vector2( 2, 2 ), 1, Vector2( 3, 3 ), 144, Vector2( 3, 4 ), 18, Vector2( 4, 3 ), 144, Vector2( 4, 4 ), 18, Vector2( 5, 0 ), 432, Vector2( 5, 1 ), 182, Vector2( 5, 2 ), 146, Vector2( 5, 3 ), 50, Vector2( 6, 0 ), 504, Vector2( 6, 1 ), 63, Vector2( 6, 3 ), 56, Vector2( 7, 0 ), 216, Vector2( 7, 1 ), 155, Vector2( 7, 2 ), 146, Vector2( 7, 3 ), 26, Vector2( 8, 0 ), 176, Vector2( 8, 1 ), 146, Vector2( 8, 2 ), 434, Vector2( 8, 3 ), 54, Vector2( 8, 4 ), 432, Vector2( 8, 5 ), 54, Vector2( 9, 0 ), 152, Vector2( 9, 1 ), 146, Vector2( 9, 2 ), 218, Vector2( 9, 3 ), 27, Vector2( 9, 4 ), 216, Vector2( 9, 5 ), 27 ]
-0/autotile/icon_coordinate = Vector2( 0, 0 )
-0/autotile/tile_size = Vector2( 16, 16 )
-0/autotile/spacing = 0
-0/autotile/occluder_map = [  ]
-0/autotile/navpoly_map = [  ]
-0/autotile/priority_map = [  ]
-0/autotile/z_index_map = [ Vector3( 6, 1, 3 ) ]
-0/occluder_offset = Vector2( 0, 0 )
-0/navigation_offset = Vector2( 0, 0 )
-0/shape_offset = Vector2( 0, 0 )
-0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-0/shape = SubResource( 1 )
-0/shape_one_way = false
-0/shape_one_way_margin = 1.0
-0/shapes = [ {
-"autotile_coord": Vector2( 0, 0 ),
-"one_way": false,
-"one_way_margin": 1.0,
-"shape": SubResource( 1 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
-}, {
-"autotile_coord": Vector2( 1, 0 ),
-"one_way": false,
-"one_way_margin": 1.0,
-"shape": SubResource( 2 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
-}, {
-"autotile_coord": Vector2( 1, 0 ),
-"one_way": false,
-"one_way_margin": 1.0,
-"shape": SubResource( 3 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
-}, {
-"autotile_coord": Vector2( 2, 0 ),
-"one_way": false,
-"one_way_margin": 1.0,
-"shape": SubResource( 4 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
-}, {
-"autotile_coord": Vector2( 0, 1 ),
-"one_way": false,
-"one_way_margin": 1.0,
-"shape": SubResource( 5 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
-}, {
-"autotile_coord": Vector2( 0, 2 ),
-"one_way": false,
-"one_way_margin": 1.0,
-"shape": SubResource( 6 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
-}, {
-"autotile_coord": Vector2( 1, 2 ),
-"one_way": false,
-"one_way_margin": 1.0,
-"shape": SubResource( 7 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
-}, {
-"autotile_coord": Vector2( 1, 2 ),
-"one_way": false,
-"one_way_margin": 1.0,
-"shape": SubResource( 8 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
-}, {
-"autotile_coord": Vector2( 1, 1 ),
-"one_way": false,
-"one_way_margin": 1.0,
-"shape": SubResource( 9 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
-}, {
-"autotile_coord": Vector2( 2, 1 ),
-"one_way": false,
-"one_way_margin": 1.0,
-"shape": SubResource( 10 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
-}, {
-"autotile_coord": Vector2( 2, 2 ),
-"one_way": false,
-"one_way_margin": 1.0,
-"shape": SubResource( 11 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
-} ]
-0/z_index = 0
-
 [sub_resource type="TileSet" id=46]
 resource_local_to_scene = true
-1/name = "4 Walls, Floor & Doors.png 1"
-1/texture = ExtResource( 3 )
-1/tex_offset = Vector2( 0, 0 )
-1/modulate = Color( 1, 1, 1, 1 )
-1/region = Rect2( 0, 0, 135, 84 )
-1/tile_mode = 1
-1/autotile/bitmask_mode = 0
-1/autotile/bitmask_flags = [ Vector2( 0, 0 ), 5, Vector2( 1, 0 ), 325, Vector2( 2, 0 ), 69, Vector2( 3, 0 ), 1 ]
-1/autotile/icon_coordinate = Vector2( 0, 0 )
-1/autotile/tile_size = Vector2( 32, 32 )
-1/autotile/spacing = 0
-1/autotile/occluder_map = [  ]
-1/autotile/navpoly_map = [  ]
-1/autotile/priority_map = [  ]
-1/autotile/z_index_map = [  ]
-1/occluder_offset = Vector2( 0, 0 )
-1/navigation_offset = Vector2( 0, 0 )
-1/shape_offset = Vector2( 0, 0 )
-1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-1/shape_one_way = false
-1/shape_one_way_margin = 0.0
-1/shapes = [  ]
-1/z_index = 0
 2/name = "4 BigSet.png 2"
 2/texture = ExtResource( 8 )
 2/tex_offset = Vector2( 0, 0 )
@@ -453,29 +308,6 @@ resource_local_to_scene = true
 2/shape_one_way_margin = 0.0
 2/shapes = [  ]
 2/z_index = 0
-3/name = "4 Walls, Floor & Doors.png 3"
-3/texture = ExtResource( 3 )
-3/tex_offset = Vector2( 0, 0 )
-3/modulate = Color( 1, 1, 1, 1 )
-3/region = Rect2( 64, 64, 15, 16 )
-3/tile_mode = 1
-3/autotile/bitmask_mode = 0
-3/autotile/bitmask_flags = [  ]
-3/autotile/icon_coordinate = Vector2( 0, 0 )
-3/autotile/tile_size = Vector2( 32, 32 )
-3/autotile/spacing = 0
-3/autotile/occluder_map = [  ]
-3/autotile/navpoly_map = [  ]
-3/autotile/priority_map = [  ]
-3/autotile/z_index_map = [  ]
-3/occluder_offset = Vector2( 0, 0 )
-3/navigation_offset = Vector2( 0, 0 )
-3/shape_offset = Vector2( 0, 0 )
-3/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-3/shape_one_way = false
-3/shape_one_way_margin = 0.0
-3/shapes = [  ]
-3/z_index = 0
 4/name = "4 BigSet.png 4"
 4/texture = ExtResource( 8 )
 4/tex_offset = Vector2( 0, 0 )
@@ -499,21 +331,100 @@ resource_local_to_scene = true
 4/shape_one_way_margin = 0.0
 4/shapes = [  ]
 4/z_index = 0
-5/name = "4 BigSet 2.png 5"
-5/texture = ExtResource( 11 )
+
+[sub_resource type="TileSet" id=49]
+0/name = "Furniture 4.png 0"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 112, 0, 16, 16 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+
+[sub_resource type="TileSet" id=12]
+0/name = "4 Walls, Floor & Doors.png 0"
+0/texture = ExtResource( 3 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 16, 0, 16, 16 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+1/name = "4 Walls, Floor & Doors.png 1"
+1/texture = ExtResource( 3 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 32, 0, 16, 16 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape_one_way = false
+1/shape_one_way_margin = 0.0
+1/shapes = [  ]
+1/z_index = 0
+2/name = "4 Walls, Floor & Doors.png 2"
+2/texture = ExtResource( 3 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 32, 16, 16, 16 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape_one_way = false
+2/shape_one_way_margin = 0.0
+2/shapes = [  ]
+2/z_index = 0
+3/name = "4 Walls, Floor & Doors.png 3"
+3/texture = ExtResource( 3 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 32, 32, 16, 16 )
+3/tile_mode = 0
+3/occluder_offset = Vector2( 0, 0 )
+3/navigation_offset = Vector2( 0, 0 )
+3/shape_offset = Vector2( 0, 0 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+3/shape_one_way = false
+3/shape_one_way_margin = 0.0
+3/shapes = [  ]
+3/z_index = 0
+4/name = "4 Walls, Floor & Doors.png 4"
+4/texture = ExtResource( 3 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 16, 32, 16, 16 )
+4/tile_mode = 0
+4/occluder_offset = Vector2( 0, 0 )
+4/navigation_offset = Vector2( 0, 0 )
+4/shape_offset = Vector2( 0, 0 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+4/shape_one_way = false
+4/shape_one_way_margin = 0.0
+4/shapes = [  ]
+4/z_index = 0
+5/name = "4 Walls, Floor & Doors.png 5"
+5/texture = ExtResource( 3 )
 5/tex_offset = Vector2( 0, 0 )
 5/modulate = Color( 1, 1, 1, 1 )
-5/region = Rect2( 108, 361, 0, 0 )
-5/tile_mode = 1
-5/autotile/bitmask_mode = 0
-5/autotile/bitmask_flags = [  ]
-5/autotile/icon_coordinate = Vector2( 0, 0 )
-5/autotile/tile_size = Vector2( 32, 32 )
-5/autotile/spacing = 0
-5/autotile/occluder_map = [  ]
-5/autotile/navpoly_map = [  ]
-5/autotile/priority_map = [  ]
-5/autotile/z_index_map = [  ]
+5/region = Rect2( 0, 32, 16, 16 )
+5/tile_mode = 0
 5/occluder_offset = Vector2( 0, 0 )
 5/navigation_offset = Vector2( 0, 0 )
 5/shape_offset = Vector2( 0, 0 )
@@ -522,21 +433,12 @@ resource_local_to_scene = true
 5/shape_one_way_margin = 0.0
 5/shapes = [  ]
 5/z_index = 0
-6/name = "4 BigSet 2.png 6"
-6/texture = ExtResource( 11 )
+6/name = "4 Walls, Floor & Doors.png 6"
+6/texture = ExtResource( 3 )
 6/tex_offset = Vector2( 0, 0 )
 6/modulate = Color( 1, 1, 1, 1 )
-6/region = Rect2( 112, 366, 16, 18 )
-6/tile_mode = 1
-6/autotile/bitmask_mode = 0
-6/autotile/bitmask_flags = [  ]
-6/autotile/icon_coordinate = Vector2( 0, 0 )
-6/autotile/tile_size = Vector2( 32, 32 )
-6/autotile/spacing = 0
-6/autotile/occluder_map = [  ]
-6/autotile/navpoly_map = [  ]
-6/autotile/priority_map = [  ]
-6/autotile/z_index_map = [  ]
+6/region = Rect2( 0, 16, 16, 16 )
+6/tile_mode = 0
 6/occluder_offset = Vector2( 0, 0 )
 6/navigation_offset = Vector2( 0, 0 )
 6/shape_offset = Vector2( 0, 0 )
@@ -545,21 +447,12 @@ resource_local_to_scene = true
 6/shape_one_way_margin = 0.0
 6/shapes = [  ]
 6/z_index = 0
-7/name = "4 BigSet 2.png 7"
-7/texture = ExtResource( 11 )
+7/name = "4 Walls, Floor & Doors.png 7"
+7/texture = ExtResource( 3 )
 7/tex_offset = Vector2( 0, 0 )
 7/modulate = Color( 1, 1, 1, 1 )
-7/region = Rect2( 92, 368, 2, 13 )
-7/tile_mode = 1
-7/autotile/bitmask_mode = 0
-7/autotile/bitmask_flags = [  ]
-7/autotile/icon_coordinate = Vector2( 0, 0 )
-7/autotile/tile_size = Vector2( 32, 32 )
-7/autotile/spacing = 0
-7/autotile/occluder_map = [  ]
-7/autotile/navpoly_map = [  ]
-7/autotile/priority_map = [  ]
-7/autotile/z_index_map = [  ]
+7/region = Rect2( 0, 0, 16, 16 )
+7/tile_mode = 0
 7/occluder_offset = Vector2( 0, 0 )
 7/navigation_offset = Vector2( 0, 0 )
 7/shape_offset = Vector2( 0, 0 )
@@ -568,6 +461,62 @@ resource_local_to_scene = true
 7/shape_one_way_margin = 0.0
 7/shapes = [  ]
 7/z_index = 0
+8/name = "4 Walls, Floor & Doors.png 8"
+8/texture = ExtResource( 3 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 32, 64, 16, 16 )
+8/tile_mode = 0
+8/occluder_offset = Vector2( 0, 0 )
+8/navigation_offset = Vector2( 0, 0 )
+8/shape_offset = Vector2( 0, 0 )
+8/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+8/shape_one_way = false
+8/shape_one_way_margin = 0.0
+8/shapes = [  ]
+8/z_index = 0
+9/name = "4 Walls, Floor & Doors.png 9"
+9/texture = ExtResource( 3 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 48, 64, 16, 16 )
+9/tile_mode = 0
+9/occluder_offset = Vector2( 0, 0 )
+9/navigation_offset = Vector2( 0, 0 )
+9/shape_offset = Vector2( 0, 0 )
+9/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+9/shape_one_way = false
+9/shape_one_way_margin = 0.0
+9/shapes = [  ]
+9/z_index = 0
+10/name = "4 Walls, Floor & Doors.png 10"
+10/texture = ExtResource( 3 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 96, 48, 16, 16 )
+10/tile_mode = 0
+10/occluder_offset = Vector2( 0, 0 )
+10/navigation_offset = Vector2( 0, 0 )
+10/shape_offset = Vector2( 0, 0 )
+10/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+10/shape_one_way = false
+10/shape_one_way_margin = 0.0
+10/shapes = [  ]
+10/z_index = 0
+11/name = "4 Walls, Floor & Doors.png 11"
+11/texture = ExtResource( 3 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 112, 48, 16, 16 )
+11/tile_mode = 0
+11/occluder_offset = Vector2( 0, 0 )
+11/navigation_offset = Vector2( 0, 0 )
+11/shape_offset = Vector2( 0, 0 )
+11/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+11/shape_one_way = false
+11/shape_one_way_margin = 0.0
+11/shapes = [  ]
+11/z_index = 0
 
 [sub_resource type="CircleShape2D" id=48]
 radius = 47.0425
@@ -588,18 +537,36 @@ cell_size = Vector2( 16, 16 )
 format = 1
 tile_data = PoolIntArray( -786385, 2, 0, -786375, 3, 0, -655293, 6, 0, 131129, 16, 0, 131131, 16, 0, 131133, 16, 0, 131135, 16, 0, 131137, 16, 0, 262191, 8, 0, 262193, 16, 0, 262195, 17, 0, 262197, 16, 0, 262199, 16, 0, 262201, 16, 0, 262203, 16, 0, 262205, 16, 0, 262207, 15, 0, 262209, 16, 0, 262211, 16, 0, 262213, 15, 0, 262215, 16, 0, 262217, 16, 0, 262219, 16, 0, 262221, 10, 0, 393267, 8, 0, 393269, 16, 0, 393271, 17, 0, 393273, 16, 0, 393275, 16, 0, 393277, 16, 0, 393279, 16, 0, 393281, 15, 0, 393283, 16, 0, 393285, 16, 0, 393287, 16, 0, 393289, 15, 0, 393291, 16, 0, 524343, 8, 0, 524345, 16, 0, 524347, 16, 0, 524349, 16, 0, 524351, 16, 0, 524353, 16, 0, 524355, 16, 0, 524357, 15, 0, 524359, 16, 0, 524361, 10, 0, 524363, 16, 0, 655410, 5, 0, 655419, 8, 0, 655421, 16, 0, 655423, 15, 0, 655425, 16, 0, 655427, 16, 0, 655429, 16, 0, 655431, 16, 0, 786495, 18, 0 )
 
-[node name="CollisonTileMap" type="TileMap" parent="."]
-tile_set = SubResource( 12 )
-cell_size = Vector2( 16, 16 )
-collision_mask = 0
-format = 1
-
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource( 46 )
 cell_size = Vector2( 16, 16 )
 collision_mask = 0
 format = 1
 tile_data = PoolIntArray( -131070, 1073741825, 3, -131069, 1073741825, 3, -131068, 1073741825, 3, -131062, 536870915, 0, -2, 536870916, 0, -1, 536870916, 0, -65536, 536870916, 0, -65535, 536870916, 0, -65534, 536870916, 0, -65533, 536870916, 0, -65532, 536870916, 0, -65531, 536870916, 0, -65530, 536870916, 0, -65529, 536870916, 0, -65528, 536870916, 0, -65525, 536870913, 3, -65524, 536870913, 3, -65523, 536870913, 3, -65522, 536870913, 3, -65521, 536870913, 3, 65534, 536870916, 0, 0, 536870914, 0, 1, 536870914, 0, 2, 536870914, 0, 3, 0, 6, 4, 536870914, 0, 5, 0, 6, 6, 536870914, 0, 7, 536870914, 0, 8, 536870914, 0, 9, 536870914, 0, 10, 0, 6, 11, 536870914, 0, 12, 536870914, 0, 13, 536870914, 0, 14, 536870914, 0, 15, 536870913, 3, 131070, 536870916, 0, 65536, 1073741825, 3, 65537, 536870914, 0, 65538, 0, 327689, 65539, 0, 458754, 65540, 536870914, 0, 65541, 0, 327689, 65542, 0, 458754, 65543, 0, 327689, 65544, 536870914, 0, 65545, 0, 458754, 65546, 0, 327689, 65547, 536870914, 0, 65548, 536870914, 0, 65549, 536870914, 0, 65550, 536870914, 0, 65551, 536870913, 3, 196606, 536870916, 0, 131072, 536870914, 0, 131073, 536870914, 131075, 131074, 536870914, 0, 131078, 536870914, 0, 131080, 536870914, 0, 131081, 536870914, 0, 131082, 536870914, 0, 131084, 536870914, 0, 131087, 536870913, 3, 262142, 536870916, 0, 196608, 1073741825, 3, 196609, 536870914, 0, 196612, 536870914, 0, 196613, 6, 0, 196614, 536870914, 0, 196616, 536870914, 0, 196617, 6, 0, 196618, 2, 0, 196619, 536870914, 0, 196620, 0, 196626, 196621, 536870914, 0, 196622, 536870914, 0, 196623, 536870913, 3, 327678, 536870916, 0, 262144, 536870914, 0, 262146, 536870914, 0, 262149, 6, 0, 262150, 536870914, 0, 262152, 2, 0, 262153, 6, 0, 262154, 536870914, 0, 262155, 536870914, 0, 262156, 0, 262162, 262157, 0, 262163, 262159, 536870913, 3, 393214, 536870916, 0, 327680, 1073741825, 3, 327684, 536870914, 0, 327685, 6, 0, 327686, 6, 0, 327687, 6, 0, 327688, 6, 0, 327689, 6, 0, 327690, 2, 0, 327692, 536870914, 0, 327693, 536870914, 0, 327694, 536870914, 0, 327695, 536870913, 3, 458750, 536870916, 0, 393216, 536870914, 0, 393217, 0, 196614, 393218, 536870914, 0, 393219, 0, 196614, 393220, 0, 196614, 393221, 2, 0, 393222, 536870914, 0, 393224, 2, 0, 393225, 2, 0, 393226, 536870914, 0, 393227, 0, 196614, 393228, 0, 196614, 393229, 0, 196614, 393230, 0, 196614, 393231, 536870913, 3, 524286, 536870916, 0, 458752, 1073741825, 3, 458756, 536870914, 0, 458757, 536870914, 0, 458758, 0, 65545, 458760, 536870914, 0, 458761, 0, 65544, 458764, 536870914, 0, 458765, 536870914, 0, 458766, 536870914, 0, 458767, 536870913, 3, 458769, 0, 196626, 458770, 0, 196627, 589822, 536870916, 0, 524288, 536870914, 0, 524289, 0, 131073, 524290, 536870914, 0, 524291, 0, 131073, 524292, 536870914, 0, 524293, 0, 131073, 524294, 536870914, 0, 524297, 0, 131080, 524298, 536870914, 0, 524299, 0, 131073, 524300, 536870914, 0, 524301, 536870914, 0, 524302, 536870914, 0, 524303, 536870913, 3, 524305, 0, 262162, 524306, 0, 262163, 655358, 536870916, 0, 589824, 1073741825, 3, 589825, 0, 327689, 589826, 0, 327689, 589827, 0, 458754, 589828, 0, 327689, 589829, 0, 327689, 589830, 0, 196617, 589831, 536870914, 0, 589832, 536870914, 0, 589833, 536870914, 0, 589834, 536870914, 0, 589835, 0, 327689, 589836, 536870914, 0, 589837, 536870914, 0, 589838, 536870914, 0, 589839, 536870913, 3, 589841, 0, 327698, 589842, 0, 327699, 720894, 536870916, 0, 655360, 536870914, 0, 655361, 536870914, 0, 655362, 536870914, 0, 655363, 536870914, 0, 655365, 536870914, 0, 655369, 536870914, 0, 655373, 536870914, 0, 655374, 536870914, 0, 655375, 536870913, 3, 786430, 536870916, 0, 720896, 536870914, 0, 720897, 0, 1, 720898, 536870914, 0, 720899, 0, 1, 720900, 536870914, 0, 720901, 0, 1, 720902, 536870914, 0, 720903, 536870914, 0, 720904, 536870914, 0, 720905, 0, 1, 720906, 536870914, 0, 720907, 0, 1, 720908, 536870914, 0, 720909, 536870914, 0, 720910, 536870914, 0, 720911, 536870913, 3, 720912, 0, 1, 720913, 0, 1, 851966, 536870916, 0, 786432, 1073741825, 3, 786433, 1073741825, 3, 786434, 1073741825, 3, 786435, 1073741825, 3, 786440, 536870915, 0, 786447, 536870913, 3, 917502, 536870913, 3, 917503, 536870913, 3, 851968, 536870913, 3, 851969, 536870913, 3, 851970, 536870913, 3, 851971, 536870913, 3, 851972, 536870913, 3, 851973, 536870913, 3, 851974, 536870913, 3, 851977, 536870913, 3, 851978, 536870913, 3, 851979, 536870913, 3, 851980, 536870913, 3, 851981, 536870913, 3, 851982, 536870913, 3, 851983, 536870913, 3 )
+
+[node name="Tables" type="TileMap" parent="."]
+tile_set = SubResource( 49 )
+cell_size = Vector2( 16, 16 )
+format = 1
+tile_data = PoolIntArray( 196613, 0, 0, 196617, 0, 0, 262149, 0, 0, 262153, 0, 0, 327685, 0, 0, 327686, 0, 0, 327687, 0, 0, 327688, 0, 0, 327689, 0, 0 )
+
+[node name="CasinoWalls" type="TileMap" parent="."]
+tile_set = SubResource( 12 )
+cell_size = Vector2( 16, 16 )
+collision_mask = 0
+format = 1
+tile_data = PoolIntArray( -1, 7, 0, -65536, 0, 0, -65535, 0, 0, -65534, 0, 0, -65533, 11, 0, -65532, 0, 0, -65531, 0, 0, -65530, 0, 0, -65529, 0, 0, -65528, 11, 0, -65527, 0, 0, -65526, 0, 0, -65525, 10, 0, -65524, 8, 0, -65523, 10, 0, -65522, 0, 0, -65521, 0, 0, -65520, 1, 0, 65535, 6, 0, 16, 2, 0, 131071, 6, 0, 65552, 2, 0, 196607, 6, 0, 131088, 2, 0, 262143, 6, 0, 196624, 2, 0, 327679, 6, 0, 262160, 2, 0, 393215, 6, 0, 327696, 2, 0, 458751, 6, 0, 393232, 2, 0, 524287, 6, 0, 458768, 2, 0, 589823, 6, 0, 524304, 2, 0, 655359, 6, 0, 589840, 2, 0, 720895, 6, 0, 655376, 2, 0, 786431, 6, 0, 720912, 2, 0, 851967, 6, 0, 786448, 2, 0, 917503, 5, 0, 851968, 4, 0, 851969, 4, 0, 851970, 4, 0, 851971, 4, 0, 851972, 4, 0, 851973, 4, 0, 851974, 10, 0, 851975, 8, 0, 851976, 8, 0, 851977, 10, 0, 851978, 4, 0, 851979, 4, 0, 851980, 4, 0, 851981, 4, 0, 851982, 4, 0, 851983, 4, 0, 851984, 3, 0 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PoolVector2Array( 192, 0, 192, -16, -16, -16, -16, 224, 112, 224, 112, 208, 0, 208, 0, 0 )
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PoolVector2Array( 208, -16, 208, 0, 256, 0, 256, 208, 144, 208, 144, 224, 272, 224, 272, -16 )
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PoolVector2Array( 80, 48, 80, 96, 160, 96, 160, 48, 144, 48, 144, 80, 96, 80, 96, 48 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2( 122, 195 )
@@ -625,6 +592,84 @@ position = Vector2( 16, 72 )
 [node name="WoodBox4" parent="YSort/Boxes" instance=ExtResource( 4 )]
 position = Vector2( 173, 32 )
 
+[node name="WoodBox5" parent="YSort/Boxes" instance=ExtResource( 4 )]
+position = Vector2( 232, 72 )
+
+[node name="WoodBox7" parent="YSort/Boxes" instance=ExtResource( 4 )]
+position = Vector2( 192, 176 )
+
+[node name="WoodBox8" parent="YSort/Boxes" instance=ExtResource( 4 )]
+position = Vector2( 192, 160 )
+
+[node name="WoodBox6" parent="YSort/Boxes" instance=ExtResource( 4 )]
+position = Vector2( 216, 72 )
+
+[node name="Plant" parent="YSort/Boxes" instance=ExtResource( 11 )]
+position = Vector2( 168, 88 )
+
+[node name="Plant2" parent="YSort/Boxes" instance=ExtResource( 11 )]
+position = Vector2( 72, 88 )
+
+[node name="Plant3" parent="YSort/Boxes" instance=ExtResource( 11 )]
+position = Vector2( 248, 152 )
+
+[node name="Plant5" parent="YSort/Boxes" instance=ExtResource( 11 )]
+position = Vector2( 8, 56 )
+
+[node name="Plant6" parent="YSort/Boxes" instance=ExtResource( 11 )]
+position = Vector2( 248, 56 )
+
+[node name="Plant4" parent="YSort/Boxes" instance=ExtResource( 11 )]
+position = Vector2( 8, 152 )
+
+[node name="Node2D" parent="YSort/Boxes" instance=ExtResource( 12 )]
+position = Vector2( 120, 0 )
+
+[node name="Node2D2" parent="YSort/Boxes" instance=ExtResource( 12 )]
+position = Vector2( 72, 0 )
+
+[node name="Node2D3" parent="YSort/Boxes" instance=ExtResource( 12 )]
+position = Vector2( 8, 112 )
+
+[node name="Node2D4" parent="YSort/Boxes" instance=ExtResource( 12 )]
+position = Vector2( 224, 120 )
+
+[node name="BookShelf" parent="YSort/Boxes" instance=ExtResource( 13 )]
+position = Vector2( 24, 0 )
+
+[node name="BookShelf2" parent="YSort/Boxes" instance=ExtResource( 13 )]
+position = Vector2( 24, 136 )
+
+[node name="BookShelf3" parent="YSort/Boxes" instance=ExtResource( 13 )]
+position = Vector2( 40, 136 )
+
+[node name="BookShelf4" parent="YSort/Boxes" instance=ExtResource( 13 )]
+position = Vector2( 56, 136 )
+
+[node name="BookShelf5" parent="YSort/Boxes" instance=ExtResource( 13 )]
+position = Vector2( 24, 160 )
+
+[node name="BookShelf6" parent="YSort/Boxes" instance=ExtResource( 13 )]
+position = Vector2( 40, 160 )
+
+[node name="BookShelf7" parent="YSort/Boxes" instance=ExtResource( 13 )]
+position = Vector2( 56, 160 )
+
+[node name="Stool" parent="YSort/Boxes" instance=ExtResource( 14 )]
+position = Vector2( 72, 72 )
+
+[node name="Stool2" parent="YSort/Boxes" instance=ExtResource( 14 )]
+position = Vector2( 88, 104 )
+
+[node name="Stool3" parent="YSort/Boxes" instance=ExtResource( 14 )]
+position = Vector2( 152, 104 )
+
+[node name="Stool5" parent="YSort/Boxes" instance=ExtResource( 14 )]
+position = Vector2( 232, 120 )
+
+[node name="Stool4" parent="YSort/Boxes" instance=ExtResource( 14 )]
+position = Vector2( 168, 72 )
+
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
 position = Vector2( 122, 195 )
 
@@ -632,25 +677,32 @@ position = Vector2( 122, 195 )
 remote_path = NodePath("../../../Camera2D")
 
 [node name="Dealer" parent="YSort" instance=ExtResource( 5 )]
-position = Vector2( 157, 2 )
+position = Vector2( 184, 0 )
 
 [node name="Enemy" parent="YSort" instance=ExtResource( 5 )]
-position = Vector2( 181, 10 )
+position = Vector2( 104, 200 )
 
 [node name="Enemy2" parent="YSort" instance=ExtResource( 5 )]
-position = Vector2( 229, 13 )
+position = Vector2( 216, 0 )
 
 [node name="Enemy3" parent="YSort" instance=ExtResource( 5 )]
-position = Vector2( 205, 6 )
+position = Vector2( 152, 200 )
+
+[node name="Enemy4" parent="YSort" instance=ExtResource( 5 )]
+position = Vector2( 72, 56 )
+
+[node name="Enemy5" parent="YSort" instance=ExtResource( 5 )]
+position = Vector2( 168, 56 )
 
 [node name="Dealer2" parent="YSort" instance=ExtResource( 10 )]
-position = Vector2( 121, 58 )
+position = Vector2( 120, 56 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="HealthUI" parent="CanvasLayer" instance=ExtResource( 6 )]
 
 [node name="Coin" type="Area2D" parent="."]
+visible = false
 position = Vector2( 20, 75 )
 scale = Vector2( 0.1, 0.1 )
 script = ExtResource( 9 )
