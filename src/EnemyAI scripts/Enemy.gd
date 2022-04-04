@@ -57,6 +57,8 @@ func _on_HurtBox_area_entered(area):
 	stats.health -= area.damage
 	knockback = area.knockback_vector * 75
 	hurtBox.create_hit_effect()
+	#enables the mask to true when enemy is hit
+	playerDetectionZone.set_collision_mask(2)
 
 func _on_Stats_no_health():
 	queue_free()
