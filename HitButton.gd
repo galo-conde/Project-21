@@ -12,7 +12,7 @@ func _ready():
 	button.connect("pressed", self, "on_pressed")
 	
 	#set button name
-	button.set_text("Galo's Button")
+	#button.set_text("Galo's Button")
 	
 	#set toggle move
 	#button.set_toggle_mode(true)

@@ -102,3 +102,8 @@ func hit_card():
 		print(card)
 		print(cardsMan.cards.getDescStr(card))
 		i += 1
+
+
+func _on_HitButton_pressed():
+	hit_card()
+	#pass

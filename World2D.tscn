@@ -814,10 +814,10 @@ position = Vector2( 171, 62 )
 script = ExtResource( 8 )
 
 [node name="HitButton" type="TextureButton" parent="YSort"]
-margin_left = 101.0
-margin_top = 81.0
-margin_right = 278.0
-margin_bottom = 186.0
+margin_left = 76.0
+margin_top = 78.0
+margin_right = 101.0
+margin_bottom = 97.0
 texture_normal = ExtResource( 14 )
 texture_pressed = ExtResource( 12 )
 expand = true
@@ -827,10 +827,10 @@ __meta__ = {
 }
 
 [node name="StayButton" type="TextureButton" parent="YSort"]
-margin_left = 13.0
-margin_top = 81.0
-margin_right = 173.0
-margin_bottom = 183.0
+margin_left = 154.0
+margin_top = 76.0
+margin_right = 182.0
+margin_bottom = 95.0
 texture_normal = ExtResource( 9 )
 texture_pressed = ExtResource( 13 )
 expand = true
@@ -842,5 +842,7 @@ __meta__ = {
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="HealthUI" parent="CanvasLayer" instance=ExtResource( 6 )]
+
+[connection signal="pressed" from="YSort/HitButton" to="YSort/Player" method="_on_HitButton_pressed"]
 
 [editable path="CanvasLayer/HealthUI"]
