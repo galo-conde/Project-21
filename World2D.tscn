@@ -713,6 +713,7 @@ position = Vector2( 144, 112 )
 
 [node name="Coin" type="Area2D" parent="."]
 visible = false
+show_behind_parent = true
 position = Vector2( 20, 75 )
 scale = Vector2( 0.1, 0.1 )
 script = ExtResource( 9 )

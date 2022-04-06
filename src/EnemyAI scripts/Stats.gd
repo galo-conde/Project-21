@@ -33,6 +33,7 @@ func set_max_money(value):
 func set_money(value):
 	money = value
 	emit_signal("money_changed", money)
+	print(money)
 	if money <= 0:
 		emit_signal("no_money")
 
