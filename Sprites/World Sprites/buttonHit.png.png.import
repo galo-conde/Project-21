@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/HitNormal.png-d9899efe73a6eec58b2c0badefa8da7e.stex"
+path="res://.import/buttonHit.png.png-cd7673772c593d4ceceff28f2cea95b7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://HitNormal.png"
-dest_files=[ "res://.import/HitNormal.png-d9899efe73a6eec58b2c0badefa8da7e.stex" ]
+source_file="res://Sprites/World Sprites/buttonHit.png.png"
+dest_files=[ "res://.import/buttonHit.png.png-cd7673772c593d4ceceff28f2cea95b7.stex" ]
 
 [params]
 

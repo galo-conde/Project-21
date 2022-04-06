@@ -1,4 +1,4 @@
-[gd_scene load_steps=62 format=2]
+[gd_scene load_steps=58 format=2]
 
 [ext_resource path="res://Sprites/World Sprites/dungeon_sheet.png" type="Texture" id=1]
 [ext_resource path="res://PlayableCharacters/Player2.tscn" type="PackedScene" id=2]
@@ -8,12 +8,8 @@
 [ext_resource path="res://UI/HealthUI.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Sprites/World Sprites/myth.png" type="Texture" id=7]
 [ext_resource path="res://DeckManager.gd" type="Script" id=8]
-[ext_resource path="res://Sprites/World Sprites/StayNormal.png" type="Texture" id=9]
-[ext_resource path="res://StayButton.gd" type="Script" id=10]
-[ext_resource path="res://HitButton.gd" type="Script" id=11]
-[ext_resource path="res://Sprites/World Sprites/HitPressed.png" type="Texture" id=12]
-[ext_resource path="res://Sprites/World Sprites/StayPressed.png" type="Texture" id=13]
-[ext_resource path="res://Sprites/World Sprites/HitNormal.png" type="Texture" id=14]
+[ext_resource path="res://Objects/StayButton.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Objects/HitButton.tscn" type="PackedScene" id=15]
 
 [sub_resource type="TileSet" id=47]
 0/name = "myth.png 0"
@@ -813,36 +809,14 @@ position = Vector2( 171, 62 )
 [node name="DeckManager" type="Node" parent="YSort"]
 script = ExtResource( 8 )
 
-[node name="HitButton" type="TextureButton" parent="YSort"]
-margin_left = 76.0
-margin_top = 78.0
-margin_right = 101.0
-margin_bottom = 97.0
-texture_normal = ExtResource( 14 )
-texture_pressed = ExtResource( 12 )
-expand = true
-script = ExtResource( 11 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="HitButton" parent="YSort" instance=ExtResource( 15 )]
+position = Vector2( 48, 88 )
 
-[node name="StayButton" type="TextureButton" parent="YSort"]
-margin_left = 154.0
-margin_top = 76.0
-margin_right = 182.0
-margin_bottom = 95.0
-texture_normal = ExtResource( 9 )
-texture_pressed = ExtResource( 13 )
-expand = true
-script = ExtResource( 10 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="Node2D" parent="YSort" instance=ExtResource( 9 )]
+position = Vector2( 80, 88 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="HealthUI" parent="CanvasLayer" instance=ExtResource( 6 )]
-
-[connection signal="pressed" from="YSort/HitButton" to="YSort/Player" method="_on_HitButton_pressed"]
 
 [editable path="CanvasLayer/HealthUI"]

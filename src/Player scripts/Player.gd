@@ -105,5 +105,5 @@ func hit_card():
 
 
 func _on_HitButton_pressed():
-	hit_card()
-	#pass
+	#hit_card()
+	pass

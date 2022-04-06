@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/StayNormal.png-e90fd77cc11d5c6437456a60098d0f9c.stex"
+path="res://.import/ButtonStay.png.png-8b1ff4fa467a1594c89b4ffb09cbfda1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://StayNormal.png"
-dest_files=[ "res://.import/StayNormal.png-e90fd77cc11d5c6437456a60098d0f9c.stex" ]
+source_file="res://Sprites/World Sprites/ButtonStay.png.png"
+dest_files=[ "res://.import/ButtonStay.png.png-8b1ff4fa467a1594c89b4ffb09cbfda1.stex" ]
 
 [params]
 
