@@ -108,6 +108,47 @@ ___
 - Ronaldo
 	- make a visual bouncer as the enemy
 ___
+
+## Sprint 2
+
+## Contributions
+- **Brandon**: ""
+	- `Jira Task: Implement End Screen`
+		- reference: 
+	- `Jira Task: Make Ai Bouncer neutral until provoked`
+		- reference: 
+<br />
+- **Ronaldo**: ""
+	- `Jira Task: Find a proper casino background`
+		- reference: https://tilation.itch.io/16x16-small-indoor-tileset
+	- `Jira Task: Casino background implementation`
+		- reference: https://www.youtube.com/watch?v=yW4lHtBzmBA
+		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Casino%20Floor/
+	- `Jira Task: Find a Dealer sprite and implement'
+		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Sprites/Dealer%20Sprites/
+		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Dealer2.gd
+<br />
+- **Galo**: "Added scripts that implements card deck functionality and assigns card values to dealer and player1 once then have destroyed a box." 
+	- `Jira Task: Find proper visual buttons`
+		- reference:
+	- `Jira Task: Buttons when hit stay down for a second`
+		- reference: 
+<br />	
+- **James**: "Added a Start Screen scene and accompanying script, worked on researching player/NPC pathing (to be implemented in future sprint)."
+	- `Jira Task: Implement Start Screen`
+		- reference: 
+	- `Jira Task: Money system`
+		- reference: 
+## Next Steps
+- Galo
+	- 
+- Brandon
+	- 
+- James
+	- 
+- Ronaldo
+	- 
+___
 ## Project Status
 Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
 

@@ -16,7 +16,7 @@ var stats = PlayerStats
 
 onready var animation_player = $AnimationPlayer
 onready var animation_tree = $AnimationTree
-#getting access to the root in animaiton tree#
+#getting access to the root in animation tree#
 onready var animation_state = animation_tree.get("parameters/playback")
 onready var swordHitBox = $HitboxPivot/SwordHitBox
 onready var hurtBox = $HurtBox
@@ -81,5 +81,9 @@ func attack_animation_finished():
 
 func _on_HurtBox_area_entered(area):
 	stats.health -= 1
+	print(stats.health)
 	hurtBox.start_invincibility(1)
 	hurtBox.create_hit_effect()
+	# added for the end screen menu to appear
+	if stats.health <= 0:
+		get_tree().change_scene("res://UI/GameOver.tscn")

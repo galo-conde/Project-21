@@ -6,6 +6,8 @@ var max_hearts = 4 setget set_max_hearts
 onready var heartUIFull = $HeartUIFull
 onready var heartUIEmpty = $HeartUIEmpty
 
+var card = load("res://src/Object scripts/HitButton.gd")
+
 func set_hearts(value):
 	hearts = clamp(value, 0, max_hearts)
 	if heartUIFull != null:
@@ -16,6 +18,10 @@ func set_max_hearts(value):
 	self.hearts = min(hearts, max_hearts)#health will never be larger than max health
 	if heartUIEmpty != null:
 		heartUIEmpty.rect_size.x = max_hearts * 15
+
+func _process(delta):
+	#$Label.text = str("card value")
+	pass
 
 func _ready():
 	self.max_hearts = PlayerStats.max_health
