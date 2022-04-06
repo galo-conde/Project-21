@@ -120,9 +120,13 @@ ___
 <br />
 - **Ronaldo**: ""
 	- `Jira Task: Find a proper casino background`
-		- reference:
+		- reference: https://tilation.itch.io/16x16-small-indoor-tileset
 	- `Jira Task: Casino background implementation`
-		- reference:
+		- reference: https://www.youtube.com/watch?v=yW4lHtBzmBA
+		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Casino%20Floor/
+	- `Jira Task: Find a Dealer sprite and implement'
+		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Sprites/Dealer%20Sprites/
+		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Dealer2.gd
 <br />
 - **Galo**: "Added scripts that implements card deck functionality and assigns card values to dealer and player1 once then have destroyed a box." 
 	- `Jira Task: Find proper visual buttons`
