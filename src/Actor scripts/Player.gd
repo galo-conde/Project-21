@@ -1,4 +1,4 @@
-extends KinematicBody2D
+extends 'res://src/Actor scripts/Actor.gd'
 
 export var MAX_SPEED = 80
 export var ACCELERATION = 500
