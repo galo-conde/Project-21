@@ -113,7 +113,7 @@ func getSuit(currCard, mask = true):
 		return 'd'
 
 func getValue(currCard, mask = true):
- 	var ret = currCard.VALUE
+	var ret = currCard.VALUE
 	
 	if(ret > ACE and ret < JACK or mask == false):
 		return ret
