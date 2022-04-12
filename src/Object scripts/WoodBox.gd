@@ -44,3 +44,4 @@ func create_WoodBoxEffect():
 func _on_HurtBox_area_entered(area):
 	create_WoodBoxEffect()
 	queue_free()
+

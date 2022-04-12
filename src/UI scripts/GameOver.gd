@@ -26,7 +26,7 @@ func handle_selection(_current_selection):
 		stats.health = 4 #makes health equal to 4 to fix bug
 		print(stats.health) #debug amount of health
 		#get_parent().add_child(Menu.instance()) #doesn't work
-		get_tree().change_scene("res://World2D.tscn")
+		get_tree().change_scene("res://Main.tscn")
 		queue_free()
 	elif _current_selection == 1:
 		get_tree().quit()
