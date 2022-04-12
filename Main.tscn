@@ -1,9 +1,7 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=25 format=2]
 
-[ext_resource path="res://src/Object scripts/Coin.gd" type="Script" id=1]
 [ext_resource path="res://Casino Floor/Furniture 4.png" type="Texture" id=2]
 [ext_resource path="res://UI/Fonts/chi_dynamicfont.tres" type="DynamicFont" id=3]
-[ext_resource path="res://Sprites/World Sprites/coin - Copy.png" type="Texture" id=4]
 [ext_resource path="res://Casino Floor/4 Walls, Floor & Doors.png" type="Texture" id=5]
 [ext_resource path="res://Casino Floor/4 BigSet.png" type="Texture" id=6]
 [ext_resource path="res://Casino Floor/Carpets 4.png" type="Texture" id=7]
@@ -21,6 +19,7 @@
 [ext_resource path="res://Objects/Plant.tscn" type="PackedScene" id=19]
 [ext_resource path="res://src/UI scripts/MoneyLabel.gd" type="Script" id=20]
 [ext_resource path="res://src/Main.gd" type="Script" id=21]
+[ext_resource path="res://Objects/Coin.tscn" type="PackedScene" id=22]
 
 [sub_resource type="TileSet" id=47]
 0/name = "myth.png 0"
@@ -525,9 +524,6 @@ resource_local_to_scene = true
 11/shapes = [  ]
 11/z_index = 0
 
-[sub_resource type="CircleShape2D" id=50]
-radius = 5.0
-
 [node name="Main" type="Node2D"]
 script = ExtResource( 21 )
 
@@ -733,17 +729,9 @@ custom_fonts/font = ExtResource( 3 )
 text = "$300"
 script = ExtResource( 20 )
 
-[node name="Coin" type="Area2D" parent="."]
-script = ExtResource( 1 )
-
-[node name="Sprite" type="Sprite" parent="Coin"]
-position = Vector2( 85, 168 )
-scale = Vector2( 0.1, 0.1 )
-texture = ExtResource( 4 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Coin"]
-position = Vector2( 85, 168 )
-shape = SubResource( 50 )
+[node name="Coin" parent="." instance=ExtResource( 22 )]
+position = Vector2( 30, 200 )
+scale = Vector2( 1.5, 1.5 )
 
 [connection signal="body_entered" from="Coin" to="Coin" method="_on_Coin_body_entered"]
 

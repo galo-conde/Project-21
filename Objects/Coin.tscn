@@ -1,0 +1,42 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Sprites/World Sprites/coin5.png" type="Texture" id=1]
+[ext_resource path="res://Sprites/World Sprites/coin1.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/World Sprites/coin2.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/World Sprites/coin3.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/World Sprites/coin0.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/World Sprites/coin4.png" type="Texture" id=6]
+[ext_resource path="res://src/Object scripts/Coin.gd" type="Script" id=7]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [  ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 6 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "spin",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 47.0
+
+[node name="Coin" type="Area2D"]
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 0.05, 0.05 )
+frames = SubResource( 1 )
+animation = "spin"
+frame = 2
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2( 0.05, 0.05 )
+shape = SubResource( 2 )
