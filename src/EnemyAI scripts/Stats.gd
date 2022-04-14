@@ -1,6 +1,6 @@
 extends Node
 
-export(int) var max_money = 99999 setget set_max_money
+export(int) var max_money = 999999 setget set_max_money
 var money = max_money setget set_money
 
 #max health is capable of being increased outside of this
@@ -33,6 +33,7 @@ func set_max_money(value):
 func set_money(value):
 	money = value
 	emit_signal("money_changed", money)
+	#print(money)
 	if money <= 0:
 		emit_signal("no_money")
 

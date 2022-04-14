@@ -1,4 +1,4 @@
-extends KinematicBody2D
+extends 'res://src/Actor scripts/Actor.gd'
 
 const EnemyDeathEffect = preload("res://Effects/EnemyDeathEffect.tscn")
 
