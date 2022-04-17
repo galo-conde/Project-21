@@ -1,10 +1,15 @@
 extends 'res://src/Actor scripts/Actor.gd'
 
 const EnemyDeathEffect = preload("res://Effects/EnemyDeathEffect.tscn")
+export(PackedScene) onready var coin_scene = preload("res://Objects/Coin.tscn")
+
+onready var coin = get_node('res://Objects/Coin.tscn')
 
 export var ACCELERATION = 300
 export var MAX_SPEED = 50
 export var FRICTION = 500
+
+signal death(pos)
 
 #state machine
 enum {
@@ -65,3 +70,4 @@ func _on_Stats_no_health():
 	var enemyDeathEffect = EnemyDeathEffect.instance()
 	get_parent().add_child(enemyDeathEffect)
 	enemyDeathEffect.global_position = global_position
+	emit_signal('death', global_position)
