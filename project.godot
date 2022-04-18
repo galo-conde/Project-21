@@ -51,11 +51,12 @@ _global_script_class_icons={
 [application]
 
 config/name="Practice Project"
-run/main_scene="res://Screens/StartScreen.tscn"
+run/main_scene="res://Sprites/Screens/StartScreen.tscn"
 config/icon="res://Sprites/World Sprites/icon.png"
 
 [autoload]
 
+DeckManager="*res://DeckManager.gd"
 PlayerStats="*res://PlayableCharacters/PlayerStats.tscn"
 
 [display]

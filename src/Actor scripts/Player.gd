@@ -20,10 +20,13 @@ onready var animation_tree = $AnimationTree
 onready var animation_state = animation_tree.get("parameters/playback")
 onready var swordHitBox = $HitboxPivot/SwordHitBox
 onready var hurtBox = $HurtBox
+onready var cardsMan = $"/root/DeckManager"
+
 
 func _ready():
 	stats.connect("no_health", self, "queue_free")
 	animation_tree.active = true
+	stats.cardsMan.cards.addField() #create player hand
 
 
 func _physics_process(delta):
@@ -88,5 +91,6 @@ func _on_HurtBox_area_entered(area):
 	if stats.health <= 0:
 		get_tree().change_scene("res://UI/GameOver.tscn")
 		
+
 
 	

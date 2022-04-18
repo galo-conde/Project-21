@@ -6,7 +6,7 @@
 [ext_resource path="res://Casino Floor/4 BigSet.png" type="Texture" id=6]
 [ext_resource path="res://Casino Floor/Carpets 4.png" type="Texture" id=7]
 [ext_resource path="res://Sprites/World Sprites/myth.png" type="Texture" id=8]
-[ext_resource path="res://EnemyNPC/Dealer2.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Objects/Dealer2.tscn" type="PackedScene" id=9]
 [ext_resource path="res://Objects/BookShelf.tscn" type="PackedScene" id=10]
 [ext_resource path="res://UI/HealthUI.tscn" type="PackedScene" id=11]
 [ext_resource path="res://Objects/Buttons/HitButton.tscn" type="PackedScene" id=12]
