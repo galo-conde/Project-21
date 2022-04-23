@@ -70,7 +70,7 @@ ___
 
 *Note: Research implementations and findings located in Research file within this directory*
 
-`Research` file direct link: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/RESEARCH
+`Research` file direct link: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Research%20Folder/RESEARCH
 
 ## Contributions
 - **Brandon**: "Added multiple scripts that focused on the player to give the gameplay a fundation to work on."
@@ -108,6 +108,70 @@ ___
 - Ronaldo
 	- make a visual bouncer as the enemy
 ___
+
+## Sprint 2
+![](https://i.imgur.com/T5bel2j.jpg)
+![](https://i.imgur.com/YvByAzW.jpg)
+![](https://i.imgur.com/74YPGat.jpg)
+![](https://i.imgur.com/28nepGl.jpg)
+
+*Note: Research implementations and findings located in Research file within this directory*
+
+`Research` file direct link: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Research%20Folder/RESEARCH
+
+## Contributions
+
+- **Brandon**: "researched and not only fixed the endscreen, but fundamentally changed the endscreen"
+	- `Jira Task: Research End Screen`
+		- research: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Research%20Folder/RESEARCH
+	- `Jira Task: Implement End Screen`
+		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/UI/GameOver.tscn
+	- `Jira Task: Make Ai Bouncer neutral until provoked`
+		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/EnemyAI%20scripts/Enemy.gd                                  
+<br />
+- **Ronaldo**: "Went in and add a casino background with a personally added a dealer sprite"
+	- `Jira Task: Find a proper casino background`
+		- reference: https://tilation.itch.io/16x16-small-indoor-tileset
+	- `Jira Task: Casino background implementation`
+		- reference: https://www.youtube.com/watch?v=yW4lHtBzmBA
+		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Casino%20Floor/
+	- `Jira Task: Find a Dealer sprite and implement`
+		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Sprites/Dealer%20Sprites/
+		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Dealer2.gd
+<br />
+- **Galo**: "Added scripts that implements card deck functionality and assigns card values to dealer and player1 once then have destroyed a box." 
+	- `Jira Task: Find proper visual buttons`
+		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/galo/Sprites/World%20Sprites/
+	- `Jira Task: Buttons when hit stay down for a second`
+		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/galo/HitButton.gd
+		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Effects%20scripts/ButtonEffect.gd
+	- `Jira Task: Button mechanic that shows card value on screen`
+		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/UI%20scripts/HealthUI.gd                                                                                                                                                  
+<br />	
+- **James**: "Added a Start Screen scene and accompanying script, worked on researching player/NPC pathing (to be implemented in future sprint)."
+	- `Jira Task: Implement Start Screen`
+		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/StartScreen.gd
+	- `Jira Task: Money system`
+		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Sprites/World%20Sprites/coin.png
+		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/Coin.gd
+## Next Steps
+- Galo
+	- Going to have to improve the code that allows the cards to be given to the dealer and player.
+	- Will have to implement the card dealing to the new button implementaion.
+	- Find a way to get the cards to visually show up on the screen somehow.
+- Brandon
+	- Create a new level area, or to make a new scene at least.
+	- If making a new scene is too much, then implement a door mechanic for new room.
+	- Somehow finish the game, or at least have a fun to play game working.
+- James
+	- Finish the money system, as it was much harder in scope then I thought.
+	- Place coins in boxes, so that the player can gain more money.
+	- have the amount of money the player has show in the UI.
+- Ronaldo
+	- finds some sprites for card, so that they may be displayed visually.
+	- might have to make more custom sprites for the game, or improve the detail of the current ones.
+	- find more casino furniture sprites to give the world more consistency
+___
 ## Project Status
 Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
 
@@ -132,6 +196,9 @@ To do:
 - Background tileart from [opengameart: voec](https://opengameart.org/content/mythical-ruins-tileset)
 - Ronaldo's Sprite's left leg made in [pixilart.com/draw](Sprites/Enemy Sprites/Left leg up.png.import)
 - Ronaldo's Sprite's right leg made in [pixilart.com/draw](Sprites/Enemy Sprites/Right leg up.png.import)
+- casino like background sprite is from [tilation.itch.io/](https://tilation.itch.io/16x16-small-indoor-tileset)
+- HUD understanding from [kidscancode.org](https://kidscancode.org/godot_recipes/games/circle_jump/circle_jump_05/)
+- Button [Button Node](https://www.youtube.com/watch?v=OgjGnlU43Fs)
 
 
 ## Contact

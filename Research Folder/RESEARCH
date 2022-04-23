@@ -1,5 +1,5 @@
 Research for Sprint 1:
-________________________
+-----------------------------------
    #Branodn Abundis#
     -Tasks:
           1). Change player appearance
@@ -15,7 +15,7 @@ ________________________
             https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Player%20scripts/Player.gd
             https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/UI/HealthUI.tscn
             https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/EnemyNPC/Enemy.tscn
-________________________
+-----------------------------------
    #Galo Conde#
     -Tasks:
           1). Research godot engine
@@ -31,7 +31,7 @@ ________________________
     -Artifacts: 
             https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Cards/Cards.gd
             https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/WoodBox.gd
-________________________
+-----------------------------------
    #James Helgren#
     -Tasks:
           1). research player/npc pathing
@@ -50,7 +50,7 @@ ________________________
             https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/GUI%20scripts/StartScreen.gd
             https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/StartScreen.tscn
             https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Screens/
-________________________   
+-----------------------------------
    #Ronaldo Amaya#
     -Tasks:
           1). create npc "bouncer" avatar
@@ -69,4 +69,30 @@ ________________________
             https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/GUI%20scripts/GameOver.gd
             
     
-------------------------------------------------------------------------------------------------------------------------------------
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Research for sprint 2:
+
+        Brandon Abundis
+        • Research Task: Research End Screen menu
+        • I am researching endscreens for the game, as it is important for a game to have an endscreen
+                research link: https://www.youtube.com/watch?v=aPN7k7irDnY&t=1647s
+        • I expect to learn how to use the Ui tools that are provided in Godot. I learned that I need to load a new scene when the player runs out of health:
+                Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/UI/GameOver.tscn
+                        this scene will effect the game, and is dependent on the .gd script:
+                Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Player%20scripts/Player.gd
+                code:
+                        func _on_HurtBox_area_entered(area):
+	                        stats.health -= 1
+	                        print(stats.health)
+	                        hurtBox.start_invincibility(1)
+	                        hurtBox.create_hit_effect()
+	                        # added for the end screen menu to appear
+	                        if stats.health <= 0:
+                                get_tree().change_scene("res://UI/GameOver.tscn") <--------how the scene is loaded
+                                
+        • This implementation will allow the player to choose between restarting the game, or quiting out of the game.
+        • the tasks depending on this research task: Implement End Screen
+                        
+        
+        
+        
