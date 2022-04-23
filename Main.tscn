@@ -1,7 +1,9 @@
-[gd_scene load_steps=25 format=2]
+[gd_scene load_steps=81 format=2]
 
+[ext_resource path="res://Cards/Clubs/11 J C.png" type="Texture" id=1]
 [ext_resource path="res://Casino Floor/Furniture 4.png" type="Texture" id=2]
 [ext_resource path="res://UI/Fonts/chi_dynamicfont.tres" type="DynamicFont" id=3]
+[ext_resource path="res://Cards/Diamonds/4 D.png" type="Texture" id=4]
 [ext_resource path="res://Casino Floor/4 Walls, Floor & Doors.png" type="Texture" id=5]
 [ext_resource path="res://Casino Floor/4 BigSet.png" type="Texture" id=6]
 [ext_resource path="res://Casino Floor/Carpets 4.png" type="Texture" id=7]
@@ -20,6 +22,58 @@
 [ext_resource path="res://src/UI scripts/MoneyLabel.gd" type="Script" id=20]
 [ext_resource path="res://src/Main.gd" type="Script" id=21]
 [ext_resource path="res://Objects/Coin.tscn" type="PackedScene" id=22]
+[ext_resource path="res://Cards/Clubs/13 K C.png" type="Texture" id=23]
+[ext_resource path="res://Cards/Clubs/12 Q C.png" type="Texture" id=24]
+[ext_resource path="res://Cards/Diamonds/1 D.png" type="Texture" id=25]
+[ext_resource path="res://Cards/Diamonds/2 D.png" type="Texture" id=26]
+[ext_resource path="res://Cards/Diamonds/3 D.png" type="Texture" id=27]
+[ext_resource path="res://Cards/Clubs/8 C.png" type="Texture" id=28]
+[ext_resource path="res://Cards/Clubs/10 C.png" type="Texture" id=29]
+[ext_resource path="res://Cards/Clubs/9 C.png" type="Texture" id=30]
+[ext_resource path="res://Cards/Clubs/6 C.png" type="Texture" id=31]
+[ext_resource path="res://Cards/Clubs/3 C.png" type="Texture" id=32]
+[ext_resource path="res://Cards/Clubs/4 C.png" type="Texture" id=33]
+[ext_resource path="res://Cards/Diamonds/10 D.png" type="Texture" id=34]
+[ext_resource path="res://Cards/Clubs/5 C.png" type="Texture" id=35]
+[ext_resource path="res://Cards/Diamonds/11 J D.png" type="Texture" id=36]
+[ext_resource path="res://Cards/Clubs/7 C.png" type="Texture" id=37]
+[ext_resource path="res://Cards/Clubs/1 C.png" type="Texture" id=38]
+[ext_resource path="res://Cards/Diamonds/9 D.png" type="Texture" id=39]
+[ext_resource path="res://Cards/Clubs/2 C.png" type="Texture" id=40]
+[ext_resource path="res://Cards/Hearts/1 H.png" type="Texture" id=41]
+[ext_resource path="res://Cards/Hearts/5 H.png" type="Texture" id=42]
+[ext_resource path="res://Cards/Hearts/3 H.png" type="Texture" id=43]
+[ext_resource path="res://Cards/Spades/2 S.png" type="Texture" id=44]
+[ext_resource path="res://Cards/Hearts/7 H.png" type="Texture" id=45]
+[ext_resource path="res://Cards/Hearts/9 H.png" type="Texture" id=46]
+[ext_resource path="res://Cards/Spades/8 S.png" type="Texture" id=47]
+[ext_resource path="res://Cards/Hearts/8 H.png" type="Texture" id=48]
+[ext_resource path="res://Cards/Hearts/12 Q H.png" type="Texture" id=49]
+[ext_resource path="res://Cards/Spades/5 S.png" type="Texture" id=50]
+[ext_resource path="res://Cards/Spades/1 S.png" type="Texture" id=51]
+[ext_resource path="res://Cards/Spades/9 S.png" type="Texture" id=52]
+[ext_resource path="res://Cards/Spades/7 S.png" type="Texture" id=53]
+[ext_resource path="res://Cards/Spades/3 S.png" type="Texture" id=54]
+[ext_resource path="res://Cards/Hearts/11 J H.png" type="Texture" id=55]
+[ext_resource path="res://Cards/Spades/4 S.png" type="Texture" id=56]
+[ext_resource path="res://Cards/Diamonds/13 K D.png" type="Texture" id=57]
+[ext_resource path="res://Cards/Hearts/4 H.png" type="Texture" id=58]
+[ext_resource path="res://Cards/Hearts/6 H.png" type="Texture" id=59]
+[ext_resource path="res://Cards/Hearts/10 H.png" type="Texture" id=60]
+[ext_resource path="res://Cards/Spades/11 J S.png" type="Texture" id=61]
+[ext_resource path="res://Cards/Spades/6 S.png" type="Texture" id=62]
+[ext_resource path="res://Cards/Spades/10 S.png" type="Texture" id=63]
+[ext_resource path="res://Cards/Spades/13 K S.png" type="Texture" id=64]
+[ext_resource path="res://Cards/Hearts/2 H.png" type="Texture" id=65]
+[ext_resource path="res://Cards/Spades/12 Q S.png" type="Texture" id=66]
+[ext_resource path="res://Cards/Hearts/13 K H.png" type="Texture" id=67]
+[ext_resource path="res://Cards/0.jpg" type="Texture" id=68]
+[ext_resource path="res://Cards/Diamonds/5 D.png" type="Texture" id=69]
+[ext_resource path="res://Cards/Diamonds/6 D.png" type="Texture" id=70]
+[ext_resource path="res://Cards/Diamonds/8 D.png" type="Texture" id=71]
+[ext_resource path="res://Cards/Diamonds/7 D.png" type="Texture" id=72]
+[ext_resource path="res://Cards/Diamonds/12 Q D.png" type="Texture" id=73]
+[ext_resource path="res://Cards/Dealer.png" type="Texture" id=74]
 
 [sub_resource type="TileSet" id=47]
 0/name = "myth.png 0"
@@ -524,6 +578,22 @@ resource_local_to_scene = true
 11/shapes = [  ]
 11/z_index = 0
 
+[sub_resource type="SpriteFrames" id=50]
+animations = [ {
+"frames": [ ExtResource( 38 ), ExtResource( 40 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 35 ), ExtResource( 31 ), ExtResource( 37 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 29 ), ExtResource( 1 ), ExtResource( 24 ), ExtResource( 23 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 4 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 72 ), ExtResource( 71 ), ExtResource( 39 ), ExtResource( 34 ), ExtResource( 36 ), ExtResource( 73 ), ExtResource( 57 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 54 ), ExtResource( 56 ), ExtResource( 50 ), ExtResource( 62 ), ExtResource( 53 ), ExtResource( 47 ), ExtResource( 52 ), ExtResource( 63 ), ExtResource( 61 ), ExtResource( 66 ), ExtResource( 64 ), ExtResource( 41 ), ExtResource( 65 ), ExtResource( 43 ), ExtResource( 58 ), ExtResource( 42 ), ExtResource( 59 ), ExtResource( 45 ), ExtResource( 48 ), ExtResource( 46 ), ExtResource( 60 ), ExtResource( 55 ), ExtResource( 49 ), ExtResource( 67 ), ExtResource( 68 ) ],
+"loop": false,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=51]
+animations = [ {
+"frames": [ ExtResource( 38 ), ExtResource( 40 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 35 ), ExtResource( 31 ), ExtResource( 37 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 29 ), ExtResource( 1 ), ExtResource( 24 ), ExtResource( 23 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 4 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 72 ), ExtResource( 71 ), ExtResource( 39 ), ExtResource( 34 ), ExtResource( 36 ), ExtResource( 73 ), ExtResource( 57 ), ExtResource( 51 ), ExtResource( 44 ), ExtResource( 54 ), ExtResource( 56 ), ExtResource( 50 ), ExtResource( 62 ), ExtResource( 53 ), ExtResource( 47 ), ExtResource( 52 ), ExtResource( 63 ), ExtResource( 61 ), ExtResource( 66 ), ExtResource( 64 ), ExtResource( 41 ), ExtResource( 65 ), ExtResource( 43 ), ExtResource( 58 ), ExtResource( 42 ), ExtResource( 59 ), ExtResource( 45 ), ExtResource( 48 ), ExtResource( 46 ), ExtResource( 60 ), ExtResource( 55 ), ExtResource( 49 ), ExtResource( 67 ), ExtResource( 74 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
 [node name="Main" type="Node2D"]
 script = ExtResource( 21 )
 
@@ -693,7 +763,7 @@ position = Vector2( 152, 200 )
 position = Vector2( 88, 40 )
 
 [node name="Enemy5" parent="YSort" instance=ExtResource( 14 )]
-position = Vector2( 152, 40 )
+position = Vector2( 242, -12 )
 
 [node name="Enemy6" parent="YSort" instance=ExtResource( 14 )]
 position = Vector2( 184, 0 )
@@ -705,6 +775,18 @@ position = Vector2( 120, 56 )
 
 [node name="HitButton" parent="YSort/Buttons" instance=ExtResource( 12 )]
 position = Vector2( 96, 112 )
+
+[node name="CardAnimated" type="AnimatedSprite" parent="YSort/Buttons/HitButton"]
+position = Vector2( -5, -44 )
+scale = Vector2( 0.336952, 0.314247 )
+frames = SubResource( 50 )
+frame = 52
+
+[node name="CardAnimated2" type="AnimatedSprite" parent="YSort/Buttons/HitButton"]
+position = Vector2( 54, -43.0858 )
+scale = Vector2( 0.323333, 0.307873 )
+frames = SubResource( 51 )
+frame = 52
 
 [node name="StayButton" parent="YSort/Buttons" instance=ExtResource( 17 )]
 position = Vector2( 144, 112 )

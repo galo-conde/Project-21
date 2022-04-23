@@ -9,7 +9,6 @@
 [ext_resource path="res://OverLap/SoftCollision.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Sprites/Enemy Sprites/Right leg up.png" type="Texture" id=8]
 
-
 [sub_resource type="SpriteFrames" id=3]
 animations = [ {
 "frames": [ ExtResource( 1 ), ExtResource( 8 ) ],
@@ -43,7 +42,6 @@ MAX_SPEED = 40
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 3 )
 animation = "Animate"
-frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

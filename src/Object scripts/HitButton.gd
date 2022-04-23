@@ -28,15 +28,44 @@ func create_butttonEffect():
 	var i = 0
 	var card
 	#show each card in Player1 Hand
+	$CardAnimated.set_frame(52)
+	$CardAnimated2.set_frame(52)
 	print("Player1 Hand")
 	while i < hand.size(): 
 		card = cardsMan.cards.getCard(1, i)
-		print(card)
-		print(cardsMan.cards.getDescStr(card))
-		$Label2.text = str(card)
-		$Label.text = str(cardsMan.cards.getDescStr(card))
+		#print(cardsMan.cards.getDescStr(card))
+		var cardValue = cardsMan.cards.getDescStr(card)
+		var array = []
+		for c in cardValue:
+			array.append(c)
+
+		var cardValStr = array[0]
+		var cardValInt = 0
+
+		var cardSuit = array[1]
+
+		if cardValStr == 'A':
+			cardValInt = 0
+		elif cardValStr == 'J':
+			cardValInt = 10
+		elif cardValStr == 'Q':
+			cardValInt = 11
+		elif cardValStr == 'K':
+			cardValInt = 12
+		else:
+			cardValInt = int(cardValStr) -1
+
+
+		if cardSuit == 'd':
+			cardValInt += 13
+		if cardSuit == 's':
+			cardValInt += 26
+		if cardSuit == 'h':
+			cardValInt += 39
+
+		$CardAnimated.set_frame(cardValInt)
+
 		i += 1
-		
 	#show each card in Dealer Hand
 #	i = 0
 #	print("Dealer Hand")
