@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://UI/Fonts/Schrödinger.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Sounds/night-chip.ogg" type="AudioStream" id=2]
 [ext_resource path="res://GUI/StartScreen.gd" type="Script" id=3]
+[ext_resource path="res://Objects/DVD.tscn" type="PackedScene" id=4]
 
 [sub_resource type="DynamicFont" id=1]
 extra_spacing_top = 2
@@ -15,6 +16,12 @@ font_path = "res://UI/Fonts/ChiKareGo2.ttf"
 size = 32
 font_data = SubResource( 2 )
 
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 4, 96 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 169, 4 )
+
 [node name="StartScreen" type="Node2D"]
 script = ExtResource( 3 )
 
@@ -23,12 +30,16 @@ margin_right = 320.0
 margin_bottom = 180.0
 color = Color( 0, 0, 0, 1 )
 
+[node name="RigidBody2D" parent="." instance=ExtResource( 4 )]
+position = Vector2( 153, 24 )
+mode = 2
+
 [node name="NewGame" type="ColorRect" parent="."]
 anchor_right = 0.219
-margin_left = 72.0
-margin_top = 64.0
-margin_right = 252.0
-margin_bottom = 84.0
+margin_left = 70.0
+margin_top = 60.0
+margin_right = 250.0
+margin_bottom = 80.0
 
 [node name="Label" type="Label" parent="NewGame"]
 margin_right = 180.0
@@ -85,3 +96,22 @@ margin_bottom = 38.0
 custom_colors/font_color_shadow = Color( 0.4, 0.360784, 0.360784, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "Probably Blackjack"
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_layer = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( -4, 88 )
+shape = SubResource( 4 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( 324, 88 )
+shape = SubResource( 4 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( 160, -4 )
+shape = SubResource( 5 )
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( 160, 184 )
+shape = SubResource( 5 )
