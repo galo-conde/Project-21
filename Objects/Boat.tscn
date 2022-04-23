@@ -5,9 +5,15 @@
 [node name="Boat" type="StaticBody2D"]
 
 [node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -0.199997, 10 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 1370, 63.9103, 130, 96.0897 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( -0.199997, 10 )
 polygon = PoolVector2Array( -40, -8, -32, 16, 0, 32, 48, 32, 56, 24, 40, 8, 16, 0, -24, -8 )
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="."]
+position = Vector2( -0.199997, 10 )
+polygon = PoolVector2Array( -58, -12, -60, -10, -58, -8, -53, -8, -52, -10, -54, -12 )
