@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Fonts/Schrödinger.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://UI/Fonts/Schrödinger.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Sounds/night-chip.ogg" type="AudioStream" id=2]
 [ext_resource path="res://GUI/StartScreen.gd" type="Script" id=3]
 
@@ -12,8 +12,8 @@ font_data = ExtResource( 1 )
 script = ExtResource( 3 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
-margin_right = 319.0
-margin_bottom = 179.0
+margin_right = 320.0
+margin_bottom = 180.0
 color = Color( 0, 0, 0, 1 )
 
 [node name="NewGame" type="ColorRect" parent="."]
@@ -29,6 +29,22 @@ margin_bottom = 19.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 1 )
 text = "NEW GAME"
+align = 1
+valign = 1
+
+[node name="Levels" type="ColorRect" parent="."]
+anchor_right = 0.219
+margin_left = 70.0
+margin_top = 80.0
+margin_right = 250.0
+margin_bottom = 100.0
+
+[node name="Label" type="Label" parent="Levels"]
+margin_right = 180.0
+margin_bottom = 19.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Levels"
 align = 1
 valign = 1
 
@@ -50,4 +66,6 @@ valign = 1
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 2 )
+volume_db = -7.866
+pitch_scale = 0.86
 autoplay = true

@@ -3,6 +3,8 @@ extends Node2D
 const WoodBoxEffect = preload("res://Effects/WoodBoxEffect.tscn")
 const CardEffect = preload("res://src/Cards.gd")
 
+signal broken(pos)
+
 func create_WoodBoxEffect():
 	var woodBoxEffect = WoodBoxEffect.instance() #instance the scene
 	get_parent().add_child(woodBoxEffect) 
@@ -43,4 +45,6 @@ func create_WoodBoxEffect():
 
 func _on_HurtBox_area_entered(area):
 	create_WoodBoxEffect()
+	emit_signal('broken', global_position+ Vector2(10,10))
 	queue_free()
+

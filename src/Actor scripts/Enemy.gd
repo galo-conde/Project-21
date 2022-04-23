@@ -1,10 +1,15 @@
-extends KinematicBody2D
+extends 'res://src/Actor scripts/Actor.gd'
 
 const EnemyDeathEffect = preload("res://Effects/EnemyDeathEffect.tscn")
+export(PackedScene) onready var coin_scene = preload("res://Objects/Coin.tscn")
+
+onready var coin = get_node('res://Objects/Coin.tscn')
 
 export var ACCELERATION = 300
 export var MAX_SPEED = 50
 export var FRICTION = 500
+
+signal death(pos)
 
 #state machine
 enum {
@@ -57,9 +62,12 @@ func _on_HurtBox_area_entered(area):
 	stats.health -= area.damage
 	knockback = area.knockback_vector * 75
 	hurtBox.create_hit_effect()
+	#enables the mask to true when enemy is hit
+	playerDetectionZone.set_collision_mask(2)
 
 func _on_Stats_no_health():
 	queue_free()
 	var enemyDeathEffect = EnemyDeathEffect.instance()
 	get_parent().add_child(enemyDeathEffect)
 	enemyDeathEffect.global_position = global_position
+	emit_signal('death', global_position)
