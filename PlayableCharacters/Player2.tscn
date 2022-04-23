@@ -17,7 +17,6 @@
 [ext_resource path="res://src/Player scripts/SwordHitBox.gd" type="Script" id=15]
 [ext_resource path="res://OverLap/HurtBox.tscn" type="PackedScene" id=16]
 
-
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 1.81819
 height = 4.36362

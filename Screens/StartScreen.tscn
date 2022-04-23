@@ -31,6 +31,9 @@ custom_fonts/font = SubResource( 1 )
 text = "NEW GAME"
 align = 1
 valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Quit" type="ColorRect" parent="."]
 anchor_right = 0.219

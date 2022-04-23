@@ -119,13 +119,13 @@ func getValue(currCard, mask = true):
 		return ret
 	
 	if(ret == ACE):
-		return 'A'
+		return 10 #'A'
 	elif(ret == JACK):
-		return 'J'
+		return 10 #'J'
 	elif(ret == QUEEN):
-		return 'Q'
+		return 10 #'Q'
 	else:
-		return 'K'
+		return 10 #'K'
 
 func getDescStr(currCard, maskV = true, maskS = true):
 	var strRet = ""
