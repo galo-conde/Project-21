@@ -37,31 +37,31 @@ margin_right = 320.0
 margin_bottom = 180.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
-margin_left = 45.0
+margin_left = 39.0
 margin_top = 48.0
-margin_right = 275.0
+margin_right = 281.0
 margin_bottom = 132.0
 custom_constants/separation = 20
 
 [node name="CenterContainer" type="CenterContainer" parent="CenterContainer/VBoxContainer"]
-margin_right = 230.0
+margin_right = 242.0
 margin_bottom = 30.0
 
 [node name="Title" type="Label" parent="CenterContainer/VBoxContainer/CenterContainer"]
-margin_right = 230.0
+margin_right = 242.0
 margin_bottom = 30.0
 custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 3 )
-text = "Died Maidenless?"
+text = "You Died of Broke"
 
 [node name="CenterContainer2" type="CenterContainer" parent="CenterContainer/VBoxContainer"]
 margin_top = 50.0
-margin_right = 230.0
+margin_right = 242.0
 margin_bottom = 84.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer/VBoxContainer/CenterContainer2"]
-margin_left = 84.0
-margin_right = 145.0
+margin_left = 90.0
+margin_right = 151.0
 margin_bottom = 34.0
 
 [node name="CenterContainer" type="CenterContainer" parent="CenterContainer/VBoxContainer/CenterContainer2/VBoxContainer"]

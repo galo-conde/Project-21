@@ -15,11 +15,11 @@ func on_win():
 func on_loss():
 	money -= 300
 	if (money == 0 || money < 0):
-		get_tree().change_scene("res://UI/GameOver.tscn")
+		get_tree().change_scene("res://UI/GameOverBroke.tscn")
 	update_money()
 	
 func on_tie():
-	money += 5
+	money += 0
 	update_money()	
 	
 func update_money():
