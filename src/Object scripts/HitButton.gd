@@ -6,6 +6,10 @@ onready var cardsMan = $"/root/DeckManager"
 
 onready var HitButtonSprite = $Sprite
 
+signal winner
+signal loser
+signal tied
+
 func create_butttonEffect():
 	var hitButtonEffect = ButtonEffect.instance()
 	get_parent().add_child(hitButtonEffect)
@@ -46,12 +50,19 @@ func create_butttonEffect():
 		
 	if (cardsMan.checkCardsScore(hand) > 21 || cardsMan.checkCardsScore(dealerHand) > 21):
 		print ("WINNER IS:")
-		$Label2.text = "Winner:"
+		$Label2.text = "Winner: "
 		var winner = cardsMan.getGameWinner(hand, cardsMan.cards.fields[2])
 		$Label.text = winner
+		if winner == "PLAYER":
+			emit_signal('winner')
+		elif winner == "DEALER":
+			emit_signal('loser')
+		else:
+			emit_signal('tied')
 		print(winner)
 		
-	
+func winner():
+	pass
 	#show each card in Dealer Hand
 #	i = 0
 #	print("Dealer Hand")

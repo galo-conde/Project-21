@@ -197,9 +197,7 @@ func sortAll():
 func printSummary():
 	#var i = 0
 	var fCount = getFieldCount()
-	
 	print("There are ", fCount," fields")
-	
 	for i in fCount:
 		print("Field ", i," has ", fields[i].size(), " elements")
 
