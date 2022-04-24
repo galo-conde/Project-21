@@ -140,12 +140,13 @@ margin_bottom = 97.0
 color = Color( 0.4, 0.4, 0.4, 1 )
 
 [node name="Label2" type="Label" parent="ColorRect"]
-margin_left = 10.0
-margin_right = 330.0
-margin_bottom = 15.0
+margin_left = 108.0
+margin_top = 144.0
+margin_right = 428.0
+margin_bottom = 159.0
 rect_scale = Vector2( 0.75, 0.75 )
 custom_fonts/font = SubResource( 23 )
-text = "press E to enter"
+text = "\"press E to enter\""
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 50, 36 )
@@ -158,7 +159,7 @@ visible = false
 position = Vector2( 265, 88 )
 scale = Vector2( 0.5, 0.5 )
 frames = SubResource( 15 )
-frame = 3
+frame = 5
 playing = true
 
 [node name="Mythic" type="Sprite" parent="."]
@@ -173,7 +174,6 @@ visible = false
 position = Vector2( 264, 88 )
 scale = Vector2( 3, 3 )
 frames = SubResource( 22 )
-frame = 2
 playing = true
 
 [node name="CenterContainer" type="CenterContainer" parent="."]

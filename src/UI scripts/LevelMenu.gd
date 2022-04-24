@@ -35,8 +35,8 @@ func handle_selection(_current_selection):
 		get_tree().change_scene("res://Levels/Level2.tscn")
 		queue_free()
 	elif _current_selection == 2:
-		get_tree().quit()
-		
+		get_tree().change_scene("res://Levels/Level3.tscn")
+		queue_free()
 
 func set_current_selection(_current_selection):
 	selectorOne.text = ""
