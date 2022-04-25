@@ -19,9 +19,7 @@ onready var animation_tree = $AnimationTree
 #getting access to the root in animation tree
 onready var animation_state = animation_tree.get("parameters/playback")
 onready var swordHitBox = $HitboxPivot/SwordHitBox
-onready var hurtBox = $HurtBox
-onready var cardsMan = $"/root/DeckManager"
-
+onready var hurtBox = $HurtBox 
 
 func _ready():
 	stats.connect("no_health", self, "queue_free")

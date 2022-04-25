@@ -64,20 +64,30 @@ func hit_card():
 	var hand = cardsMan.cards.fields[1] #create variable to access Player1 Hand
 	cardsMan.cards.drawCard(hand) #draw card from deck to Player1 Hand
 
-	var i = 0
-	var card
+#	var i = 0
+#	var card
 	
 	#show each card in Player1 Hand
-	print("Player1 Hand")
-	while i < hand.size(): 
-		card = cardsMan.cards.getCard(1, i)
-		print(card)
-		print(cardsMan.cards.getDescStr(card))
-		i += 1
+	#print("Player1 Hand")
+	#while i < hand.size(): 
+	#	card = cardsMan.cards.getCard(1, i)
+	#	print(card)
+	#	print(cardsMan.cards.getDescStr(card))
+	#	i += 1
+		
+		#show each card in Player1 Hand
+#	var dealerHand = cardsMan.cards.fields[2] #create variable to access Player1 Hand
+	#print("Dealer Hand")
+	#i = 0
+	#while i < dealerHand.size(): 
+	#	card = cardsMan.cards.getCard(1, i)
+	#	print(card)
+	#	print(cardsMan.cards.getDescStr(card))
+	#	i += 1
 
 
 func _ready():
 	self.health = max_health
 	self.money = 300
 	#self.cards = 0
-	cardsMan.addField() #create player hand
+	#cardsMan.addField() #create player hand

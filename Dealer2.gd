@@ -2,6 +2,8 @@ extends KinematicBody2D
 
 const EnemyDeathEffect = preload("res://Effects/EnemyDeathEffect.tscn")
 
+onready var cardsMan = $"/root/DeckManager"
+
 export var ACCELERATION = 300
 export var MAX_SPEED = 50
 export var FRICTION = 500
@@ -35,3 +37,5 @@ func _physics_process(delta):
 			pass
 			
 	
+func _ready():
+	cardsMan.addField() #create dealer hand
