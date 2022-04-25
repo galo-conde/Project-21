@@ -3,11 +3,13 @@ extends Node2D
 var money
 
 onready var coin_scene = load("res://Objects/Coin.tscn")
-onready var enemy = get_node("YSort/Enemy")
+onready var hitButton = get_node("YSort/Buttons/HitButton")
 onready var coin = get_node("Coin")
 
 func _ready():
-	#coin.connect("picked_up_coin", $HUD/MoneyUI/MoneyLabel, "_on_coin_pickup")
+	hitButton.connect("winner", $HUD/MoneyUI/MoneyLabel, "on_win")
+	hitButton.connect("loser", $HUD/MoneyUI/MoneyLabel, "on_loss")
+	hitButton.connect("tied", $HUD/MoneyUI/MoneyLabel, "on_tie")
 	pass
 
 
