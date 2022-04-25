@@ -26,6 +26,8 @@ func create_butttonEffect():
 	print("Player1 Hand")
 	while i < hand.size(): 
 		card = cardsMan.cards.getCard(1, i)
+		print(card)
+		print(cardsMan.cards.getDescStr(card))
 		#print(cardsMan.cards.getDescStr(card))
 		var cardValue = cardsMan.cards.getDescStr(card)
 		var array = []
@@ -34,20 +36,24 @@ func create_butttonEffect():
 
 		var cardValStr = array[0]
 		var cardValInt = 0
+		var call = 0
 
 		var cardSuit = array[1]
-
 		if cardValStr == 'A':
 			cardValInt = 0
+			call = int(cardValStr)
 		elif cardValStr == 'J':
 			cardValInt = 10
+			call = int(cardValStr)
 		elif cardValStr == 'Q':
 			cardValInt = 11
+			call = int(cardValStr)
 		elif cardValStr == 'K':
 			cardValInt = 12
+			call = int(cardValStr)
 		else:
 			cardValInt = int(cardValStr) -1
-
+			call = int(cardValStr)
 
 		if cardSuit == 'd':
 			cardValInt += 13
@@ -76,6 +82,41 @@ func create_butttonEffect():
 		card = cardsMan.cards.getCard(2, i)
 		print(card)
 		print(cardsMan.cards.getDescStr(card))
+		var cardValue = cardsMan.cards.getDescStr(card)
+		var array = []
+		for c in cardValue:
+			array.append(c)
+
+		var cardValStr = array[0]
+		var cardValInt = 0
+		var call = 0
+
+		var cardSuit = array[1]
+
+		if cardValStr == 'A':
+			cardValInt = 0
+			call = int(cardValStr)
+		elif cardValStr == 'J':
+			cardValInt = 10
+			call = int(cardValStr)
+		elif cardValStr == 'Q':
+			cardValInt = 11
+			call = int(cardValStr)
+		elif cardValStr == 'K':
+			cardValInt = 12
+			call = int(cardValStr)
+		else:
+			cardValInt = int(cardValStr) -1
+			call = int(cardValStr)
+
+		if cardSuit == 'd':
+			cardValInt += 13
+		if cardSuit == 's':
+			cardValInt += 26
+		if cardSuit == 'h':
+			cardValInt += 39
+
+		$CardAnimated2.set_frame(cardValInt)
 		i += 1
 		
 	if (cardsMan.checkCardsScore(hand) > 21 || cardsMan.checkCardsScore(dealerHand) > 21):
