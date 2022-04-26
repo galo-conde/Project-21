@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://Sprites/World Sprites/dungeon_sheet.png" type="Texture" id=1]
 [ext_resource path="res://PlayableCharacters/Player2.tscn" type="PackedScene" id=2]
@@ -7,6 +7,10 @@
 [ext_resource path="res://EnemyNPC/Enemy.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Objects/DongeonPillar.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Objects/DongeonPillar2.tscn" type="PackedScene" id=7]
+[ext_resource path="res://EnemyNPC/Dealer2.tscn" type="PackedScene" id=8]
+[ext_resource path="res://UI/Fonts/chi_dynamicfont.tres" type="DynamicFont" id=9]
+[ext_resource path="res://src/UI scripts/MoneyLabel.gd" type="Script" id=10]
+[ext_resource path="res://UI/HealthUI.tscn" type="PackedScene" id=11]
 
 [sub_resource type="TileSet" id=2]
 0/name = "dungeon_tiles.png 0"
@@ -409,6 +413,8 @@
 [sub_resource type="DynamicFont" id=4]
 font_data = ExtResource( 4 )
 
+[sub_resource type="AnimationNodeStateMachinePlayback" id=5]
+
 [node name="Level3" type="Node2D"]
 
 [node name="Sprite" type="Sprite" parent="."]
@@ -458,13 +464,23 @@ smoothing_enabled = true
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
 position = Vector2( 72, 56 )
 
+[node name="AnimationTree" parent="YSort/Player" index="3"]
+parameters/playback = SubResource( 5 )
+
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="YSort/Player"]
 remote_path = NodePath("../../../Camera2D")
 
 [node name="Yenemy" type="YSort" parent="YSort"]
 
 [node name="Enemy" parent="YSort/Yenemy" instance=ExtResource( 5 )]
-position = Vector2( 72, -224 )
+position = Vector2( 112, -108 )
+
+[node name="Dealer2" parent="YSort/Yenemy" instance=ExtResource( 8 )]
+position = Vector2( 53, -208 )
+MAX_SPEED = 65
+
+[node name="CollisionShape2D" parent="YSort/Yenemy/Dealer2/PlayerDetectionZone" index="0"]
+scale = Vector2( 2, 2 )
 
 [node name="StaticBody2D" parent="YSort" instance=ExtResource( 6 )]
 position = Vector2( -32, -160 )
@@ -506,3 +522,32 @@ scale = Vector2( 1.5, 1.5 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
 polygon = PoolVector2Array( -16, -400, -40, -400, -40, -368, -104, -368, -104, -400, -152, -400, -152, -368, -168, -368, -168, -200, -152, -200, -152, -184, -136, -184, -136, -168, -120, -168, -120, -152, -104, -152, -104, -136, -88, -136, -88, -120, -72, -120, -72, -104, -56, -104, -56, -88, 40, -88, 40, 32, 8, 32, 8, 72, 104, 72, 104, 32, 72, 32, 72, -88, 168, -88, 168, -104, 184, -104, 184, -120, 200, -120, 200, -136, 216, -136, 216, -152, 232, -152, 232, -168, 248, -168, 248, -184, 264, -184, 264, -200, 280, -200, 280, -376, 280, -368, 264, -368, 264, -400, 216, -400, 216, -368, 152, -368, 152, -400, 88, -400, 88, -368, 24, -368, 24, -400, 0, -400, 0, -432, 32, -432, 32, -400, 80, -400, 80, -432, 160, -432, 160, -400, 208, -400, 208, -432, 272, -432, 272, -400, 288, -400, 288, -192, 176, -80, 80, -80, 80, 0, 112, 0, 112, 80, 0, 80, 0, 0, 32, 0, 32, -80, -64, -80, -176, -192, -176, -400, -160, -400, -160, -432, -96, -432, -96, -400, -48, -400, -48, -432, -16, -432 )
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="HealthUI" parent="HUD" instance=ExtResource( 11 )]
+
+[node name="MoneyUI" type="Control" parent="HUD"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="MoneyLabel" type="Label" parent="HUD/MoneyUI"]
+margin_top = 10.0
+margin_right = 98.0
+margin_bottom = 40.0
+rect_scale = Vector2( 0.6, 0.6 )
+custom_colors/font_color = Color( 0.937255, 0.8, 0.0588235, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 9 )
+text = "$300"
+script = ExtResource( 10 )
+
+[editable path="YSort/Player"]
+[editable path="YSort/Player/HitboxPivot/SwordHitBox"]
+[editable path="YSort/Player/HurtBox"]
+[editable path="YSort/Yenemy/Dealer2"]
+[editable path="YSort/Yenemy/Dealer2/HurtBox"]
+[editable path="YSort/Yenemy/Dealer2/PlayerDetectionZone"]
+[editable path="YSort/Yenemy/Dealer2/HitBox"]
+[editable path="YSort/Yenemy/Dealer2/SoftCollision"]
+[editable path="HUD/HealthUI"]

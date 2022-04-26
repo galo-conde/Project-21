@@ -130,6 +130,7 @@ func getValue(currCard, mask = true):
 func getDescStr(currCard, maskV = true, maskS = true):
 	var strRet = ""
 	strRet += str(getValue(currCard, maskV))
+	strRet += str(",")
 	strRet += str(getSuit(currCard, maskS))
 	return strRet
 

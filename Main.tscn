@@ -1,4 +1,4 @@
-[gd_scene load_steps=81 format=2]
+[gd_scene load_steps=83 format=2]
 
 [ext_resource path="res://Cards/Clubs/11 J C.png" type="Texture" id=1]
 [ext_resource path="res://Casino Floor/Furniture 4.png" type="Texture" id=2]
@@ -594,6 +594,13 @@ animations = [ {
 "speed": 5.0
 } ]
 
+[sub_resource type="DynamicFontData" id=53]
+font_path = "res://UI/Fonts/ChiKareGo2.ttf"
+
+[sub_resource type="DynamicFont" id=52]
+size = 8
+font_data = SubResource( 53 )
+
 [node name="Main" type="Node2D"]
 script = ExtResource( 21 )
 
@@ -763,7 +770,7 @@ position = Vector2( 152, 200 )
 position = Vector2( 88, 40 )
 
 [node name="Enemy5" parent="YSort" instance=ExtResource( 14 )]
-position = Vector2( 242, -12 )
+position = Vector2( 152, 40 )
 
 [node name="Enemy6" parent="YSort" instance=ExtResource( 14 )]
 position = Vector2( 184, 0 )
@@ -777,16 +784,26 @@ position = Vector2( 120, 56 )
 position = Vector2( 96, 112 )
 
 [node name="CardAnimated" type="AnimatedSprite" parent="YSort/Buttons/HitButton"]
+visible = false
 position = Vector2( -5, -44 )
 scale = Vector2( 0.336952, 0.314247 )
 frames = SubResource( 50 )
 frame = 52
 
 [node name="CardAnimated2" type="AnimatedSprite" parent="YSort/Buttons/HitButton"]
+visible = false
 position = Vector2( 54, -43.0858 )
 scale = Vector2( 0.323333, 0.307873 )
 frames = SubResource( 51 )
 frame = 52
+
+[node name="Label3" type="Label" parent="YSort/Buttons/HitButton"]
+margin_left = -12.0
+margin_top = -66.0
+margin_right = 62.0
+margin_bottom = -58.0
+custom_fonts/font = SubResource( 52 )
+text = "Player            Dealer"
 
 [node name="StayButton" parent="YSort/Buttons" instance=ExtResource( 17 )]
 position = Vector2( 144, 112 )
