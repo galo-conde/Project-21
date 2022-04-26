@@ -164,28 +164,63 @@ ___
 	- If making a new scene is too much, then implement a door mechanic for new room.
 	- Somehow finish the game, or at least have a fun to play game working.
 - James
-	- Finish the money system, as it was much harder in scope then I thought.
+	- Finish the money system, as it was much harder in scope than I thought.
 	- Place coins in boxes, so that the player can gain more money.
-	- have the amount of money the player has show in the UI.
+	- Have the amount of money the player has show in the UI.
 - Ronaldo
 	- finds some sprites for card, so that they may be displayed visually.
 	- might have to make more custom sprites for the game, or improve the detail of the current ones.
 	- find more casino furniture sprites to give the world more consistency
+
 ___
+
+## Sprint 3
+
 ## Project Status
 Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
 
+## Contributions
+
+- **Brandon**: "ree"
+	- `Jira Task:`
+		-
+	- `Jira Task:`
+		- 
+	- `Jira Task:`
+		-                             
+<br />
+- **Ronaldo**: "ree"
+	- `Jira Task:`
+		-
+	- `Jira Task:`
+		- 
+	- `Jira Task:`
+		-                             
+<br />
+- **Galo**: "ree"
+	- `Jira Task:`
+		-
+	- `Jira Task:`
+		- 
+	- `Jira Task:`
+		-                             
+<br />
+- **James**: "Added a Start Screen scene and accompanying script, worked on researching player/NPC pathing (to be implemented in future sprint)."
+	- `Jira Task: Implement `
+		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/StartScreen.gd
+	- `Jira Task: Money system`
+		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Sprites/World%20Sprites/coin.png
+		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/Coin.gd
+
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
+- Brandon:
+- Ronny:
+- Galo:
+- James:
 Room for improvement:
 - Improvement to be done 1
 - Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
 
 ## Acknowledgements
 - This project was based on [this tutorial](https://www.youtube.com/watch?v=mAbG8Oi-SvQ&list=PL9FzW-m48fn2SlrW0KoLT4n5egNdX-W9a).
