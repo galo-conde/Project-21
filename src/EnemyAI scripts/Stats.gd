@@ -11,7 +11,6 @@ export(int) var max_health = 1 setget set_max_health
 var health = max_health setget set_health
 
 
-
 export(Array) var max_cards = [] setget set_max_cards
 var cards = max_cards setget set_cards
 
@@ -22,6 +21,7 @@ signal no_money
 signal money_changed(value)
 signal no_cards
 signal cards_changed(value)
+signal was_hit()
 
 
 func set_max_health(value):
@@ -35,6 +35,7 @@ func set_health(value):
 	#print(health)
 	if health <= 0:
 		emit_signal("no_health")
+
 
 func set_max_money(value):
 	max_money = value

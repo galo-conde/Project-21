@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=77 format=2]
 
 [ext_resource path="res://Sprites/World Sprites/myth.png" type="Texture" id=1]
 [ext_resource path="res://PlayableCharacters/Player2.tscn" type="PackedScene" id=2]
@@ -6,6 +6,67 @@
 [ext_resource path="res://UI/Fonts/NotoSansJP-Light.otf" type="DynamicFontData" id=4]
 [ext_resource path="res://EnemyNPC/Enemy.tscn" type="PackedScene" id=5]
 [ext_resource path="res://UI/MythicPillar.tscn" type="PackedScene" id=6]
+[ext_resource path="res://UI/Fonts/chi_dynamicfont.tres" type="DynamicFont" id=7]
+[ext_resource path="res://src/UI scripts/MoneyLabel.gd" type="Script" id=8]
+[ext_resource path="res://UI/HealthUI.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Casino Floor/Furniture 4.png" type="Texture" id=10]
+[ext_resource path="res://Cards/Diamonds/4 D.png" type="Texture" id=11]
+[ext_resource path="res://Cards/Clubs/11 J C.png" type="Texture" id=12]
+[ext_resource path="res://Objects/Buttons/StayButton.tscn" type="PackedScene" id=13]
+[ext_resource path="res://EnemyNPC/Dealer2.tscn" type="PackedScene" id=14]
+[ext_resource path="res://Objects/Buttons/HitButton.tscn" type="PackedScene" id=15]
+[ext_resource path="res://Cards/Hearts/4 H.png" type="Texture" id=16]
+[ext_resource path="res://Cards/Hearts/13 K H.png" type="Texture" id=17]
+[ext_resource path="res://Cards/Diamonds/12 Q D.png" type="Texture" id=18]
+[ext_resource path="res://Cards/Spades/12 Q S.png" type="Texture" id=19]
+[ext_resource path="res://Cards/Diamonds/8 D.png" type="Texture" id=20]
+[ext_resource path="res://Cards/Hearts/12 Q H.png" type="Texture" id=21]
+[ext_resource path="res://Cards/Hearts/2 H.png" type="Texture" id=22]
+[ext_resource path="res://Cards/Diamonds/7 D.png" type="Texture" id=23]
+[ext_resource path="res://Cards/Spades/5 S.png" type="Texture" id=24]
+[ext_resource path="res://Cards/Diamonds/5 D.png" type="Texture" id=25]
+[ext_resource path="res://Cards/Spades/7 S.png" type="Texture" id=26]
+[ext_resource path="res://Cards/Spades/1 S.png" type="Texture" id=27]
+[ext_resource path="res://Cards/Spades/4 S.png" type="Texture" id=28]
+[ext_resource path="res://Cards/Spades/9 S.png" type="Texture" id=29]
+[ext_resource path="res://Cards/Dealer.png" type="Texture" id=30]
+[ext_resource path="res://Cards/Hearts/10 H.png" type="Texture" id=31]
+[ext_resource path="res://Cards/Hearts/7 H.png" type="Texture" id=32]
+[ext_resource path="res://Cards/Spades/8 S.png" type="Texture" id=33]
+[ext_resource path="res://Cards/Hearts/9 H.png" type="Texture" id=34]
+[ext_resource path="res://Cards/Spades/3 S.png" type="Texture" id=35]
+[ext_resource path="res://Cards/Spades/6 S.png" type="Texture" id=36]
+[ext_resource path="res://Cards/Spades/13 K S.png" type="Texture" id=37]
+[ext_resource path="res://Cards/Spades/2 S.png" type="Texture" id=38]
+[ext_resource path="res://Cards/Spades/11 J S.png" type="Texture" id=39]
+[ext_resource path="res://Cards/Hearts/6 H.png" type="Texture" id=40]
+[ext_resource path="res://Cards/Hearts/11 J H.png" type="Texture" id=41]
+[ext_resource path="res://Cards/0.jpg" type="Texture" id=42]
+[ext_resource path="res://Cards/Diamonds/6 D.png" type="Texture" id=43]
+[ext_resource path="res://Cards/Spades/10 S.png" type="Texture" id=44]
+[ext_resource path="res://Cards/Diamonds/13 K D.png" type="Texture" id=45]
+[ext_resource path="res://Cards/Hearts/8 H.png" type="Texture" id=46]
+[ext_resource path="res://Cards/Clubs/8 C.png" type="Texture" id=47]
+[ext_resource path="res://Cards/Clubs/12 Q C.png" type="Texture" id=48]
+[ext_resource path="res://Cards/Clubs/3 C.png" type="Texture" id=49]
+[ext_resource path="res://Cards/Clubs/4 C.png" type="Texture" id=50]
+[ext_resource path="res://Cards/Diamonds/1 D.png" type="Texture" id=51]
+[ext_resource path="res://Cards/Clubs/9 C.png" type="Texture" id=52]
+[ext_resource path="res://Cards/Clubs/6 C.png" type="Texture" id=53]
+[ext_resource path="res://Cards/Diamonds/10 D.png" type="Texture" id=54]
+[ext_resource path="res://Cards/Clubs/5 C.png" type="Texture" id=55]
+[ext_resource path="res://Cards/Clubs/1 C.png" type="Texture" id=56]
+[ext_resource path="res://Cards/Diamonds/9 D.png" type="Texture" id=57]
+[ext_resource path="res://Cards/Clubs/2 C.png" type="Texture" id=58]
+[ext_resource path="res://Cards/Diamonds/3 D.png" type="Texture" id=59]
+[ext_resource path="res://Cards/Clubs/10 C.png" type="Texture" id=60]
+[ext_resource path="res://Cards/Hearts/1 H.png" type="Texture" id=61]
+[ext_resource path="res://Cards/Clubs/13 K C.png" type="Texture" id=62]
+[ext_resource path="res://Cards/Hearts/5 H.png" type="Texture" id=63]
+[ext_resource path="res://Cards/Clubs/7 C.png" type="Texture" id=64]
+[ext_resource path="res://Cards/Hearts/3 H.png" type="Texture" id=65]
+[ext_resource path="res://Cards/Diamonds/2 D.png" type="Texture" id=66]
+[ext_resource path="res://Cards/Diamonds/11 J D.png" type="Texture" id=67]
 
 [sub_resource type="TileSet" id=1]
 0/name = "myth.png 0"
@@ -459,8 +520,47 @@
 13/shapes = [  ]
 13/z_index = 0
 
+[sub_resource type="TileSet" id=5]
+0/name = "Furniture 4.png 0"
+0/texture = ExtResource( 10 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 112, 0, 16, 16 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+
 [sub_resource type="DynamicFont" id=3]
 font_data = ExtResource( 4 )
+
+[sub_resource type="SpriteFrames" id=6]
+animations = [ {
+"frames": [ ExtResource( 56 ), ExtResource( 58 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 55 ), ExtResource( 53 ), ExtResource( 64 ), ExtResource( 47 ), ExtResource( 52 ), ExtResource( 60 ), ExtResource( 12 ), ExtResource( 48 ), ExtResource( 62 ), ExtResource( 51 ), ExtResource( 66 ), ExtResource( 59 ), ExtResource( 11 ), ExtResource( 25 ), ExtResource( 43 ), ExtResource( 23 ), ExtResource( 20 ), ExtResource( 57 ), ExtResource( 54 ), ExtResource( 67 ), ExtResource( 18 ), ExtResource( 45 ), ExtResource( 27 ), ExtResource( 38 ), ExtResource( 35 ), ExtResource( 28 ), ExtResource( 24 ), ExtResource( 36 ), ExtResource( 26 ), ExtResource( 33 ), ExtResource( 29 ), ExtResource( 44 ), ExtResource( 39 ), ExtResource( 19 ), ExtResource( 37 ), ExtResource( 61 ), ExtResource( 22 ), ExtResource( 65 ), ExtResource( 16 ), ExtResource( 63 ), ExtResource( 40 ), ExtResource( 32 ), ExtResource( 46 ), ExtResource( 34 ), ExtResource( 31 ), ExtResource( 41 ), ExtResource( 21 ), ExtResource( 17 ), ExtResource( 42 ) ],
+"loop": false,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=7]
+animations = [ {
+"frames": [ ExtResource( 56 ), ExtResource( 58 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 55 ), ExtResource( 53 ), ExtResource( 64 ), ExtResource( 47 ), ExtResource( 52 ), ExtResource( 60 ), ExtResource( 12 ), ExtResource( 48 ), ExtResource( 62 ), ExtResource( 51 ), ExtResource( 66 ), ExtResource( 59 ), ExtResource( 11 ), ExtResource( 25 ), ExtResource( 43 ), ExtResource( 23 ), ExtResource( 20 ), ExtResource( 57 ), ExtResource( 54 ), ExtResource( 67 ), ExtResource( 18 ), ExtResource( 45 ), ExtResource( 27 ), ExtResource( 38 ), ExtResource( 35 ), ExtResource( 28 ), ExtResource( 24 ), ExtResource( 36 ), ExtResource( 26 ), ExtResource( 33 ), ExtResource( 29 ), ExtResource( 44 ), ExtResource( 39 ), ExtResource( 19 ), ExtResource( 37 ), ExtResource( 61 ), ExtResource( 22 ), ExtResource( 65 ), ExtResource( 16 ), ExtResource( 63 ), ExtResource( 40 ), ExtResource( 32 ), ExtResource( 46 ), ExtResource( 34 ), ExtResource( 31 ), ExtResource( 41 ), ExtResource( 21 ), ExtResource( 17 ), ExtResource( 30 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="DynamicFontData" id=8]
+font_path = "res://UI/Fonts/ChiKareGo2.ttf"
+
+[sub_resource type="DynamicFont" id=9]
+size = 8
+font_data = SubResource( 8 )
 
 [sub_resource type="DynamicFont" id=4]
 font_data = ExtResource( 4 )
@@ -489,6 +589,14 @@ cell_quadrant_size = 4
 format = 1
 tile_data = PoolIntArray( -524266, 0, 0, -524246, 0, 0, -262111, 0, 0, 2097274, 8, 0, 2293720, 8, 0, 2293722, 3, 0, 2293876, 5, 0, 2490335, 3, 0, 2424942, 4, 0, 2556022, 7, 0, 2686938, 8, 0, 2686939, 7, 0, 2686947, 2, 0, 2621545, 4, 0, 2687006, 9, 0, 2687022, 13, 0, 2687026, 12, 0, 2883551, 7, 0, 2883561, 3, 0, 2818148, 4, 0, 2818161, 7, 0, 2818165, 8, 0, 3014629, 7, 0, 2949150, 9, 0, 2949166, 13, 0, 2949170, 12, 0, 3080163, 8, 0, 3080173, 2, 0, 3014751, 4, 0, 3014764, 7, 0, 3014768, 8, 0, 3276777, 8, 0, 3276779, 8, 0, 3276787, 3, 0, 3211298, 10, 0, 3211302, 10, 0, 3211306, 10, 0, 3211310, 10, 0, 3211367, 7, 0, 3211371, 8, 0, 3407853, 8, 0, 3407855, 7, 0, 3407862, 3, 0, 3342425, 5, 0, 3407967, 7, 0, 3407971, 7, 0, 3538937, 3, 0, 3473491, 4, 0, 3604475, 3, 0, 3670001, 8, 0, 3670003, 8, 0, 3670005, 8, 0, 3604571, 7, 0, 3735543, 8, 0, 3735550, 3, 0, 3670094, 4, 0, 3735641, 8, 0, 3866617, 8, 0, 3801089, 3, 0, 3801163, 4, 0, 3801174, 7, 0, 3932155, 8, 0, 3997693, 8, 0, 4128767, 8, 0, 4063312, 7, 0, 4063316, 8, 0, 4128768, 8, 0, 4128770, 7, 0, 4128774, 6, 0, 4128786, 6, 0, 4128798, 6, 0, 4128810, 6, 0, 4128822, 6, 0, 4128832, 6, 0, 4128844, 7, 0 )
 
+[node name="TileMap2" type="TileMap" parent="."]
+tile_set = SubResource( 5 )
+cell_size = Vector2( 8, 8 )
+cell_quadrant_size = 4
+cell_custom_transform = Transform2D( 4, 0, 0, 4, 0, 0 )
+format = 1
+tile_data = PoolIntArray( 3407907, 0, 0, 3407909, 0, 0, 3407917, 0, 0, 3407919, 0, 0, 3473447, 0, 0, 3473451, 0, 0, 3538985, 0, 0 )
+
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
@@ -508,6 +616,9 @@ polygon = PoolVector2Array( 656, 88, 672, 104, 688, 104, 704, 120, 720, 120, 736
 
 [node name="CollisionPolygon2D6" type="CollisionPolygon2D" parent="StaticBody2D"]
 polygon = PoolVector2Array( -304, 280, 56, 504, 608, 504, 976, 280, 976, 320, 608, 528, 56, 528, -304, 312 )
+
+[node name="CollisionPolygon2D7" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PoolVector2Array( 280, 416, 280, 432, 312, 432, 312, 440, 328, 440, 328, 448, 344, 448, 344, 440, 360, 440, 360, 432, 392, 432, 392, 416, 360, 416, 360, 424, 344, 424, 344, 432, 328, 432, 328, 424, 312, 424, 312, 416 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2( 120, 216 )
@@ -529,6 +640,9 @@ position = Vector2( -2, 21 )
 [node name="Enemy" parent="YSort/yenemy" instance=ExtResource( 5 )]
 position = Vector2( 194, 294 )
 
+[node name="Dealer2" parent="YSort/yenemy" instance=ExtResource( 14 )]
+position = Vector2( 338, 385 )
+
 [node name="Label" type="Label" parent="YSort"]
 margin_left = 128.0
 margin_top = 320.0
@@ -543,6 +657,36 @@ position = Vector2( 144, 312 )
 [node name="MythicPillar" parent="YSort" instance=ExtResource( 6 )]
 position = Vector2( 336, 356 )
 
+[node name="Buttons" type="YSort" parent="YSort"]
+
+[node name="HitButton" parent="YSort/Buttons" instance=ExtResource( 15 )]
+position = Vector2( 312, 448 )
+
+[node name="CardAnimated" type="AnimatedSprite" parent="YSort/Buttons/HitButton"]
+visible = false
+position = Vector2( -5, -44 )
+scale = Vector2( 0.336952, 0.314247 )
+frames = SubResource( 6 )
+frame = 52
+
+[node name="CardAnimated2" type="AnimatedSprite" parent="YSort/Buttons/HitButton"]
+visible = false
+position = Vector2( 54, -43.0858 )
+scale = Vector2( 0.323333, 0.307873 )
+frames = SubResource( 7 )
+frame = 52
+
+[node name="Label3" type="Label" parent="YSort/Buttons/HitButton"]
+margin_left = -12.0
+margin_top = -66.0
+margin_right = 62.0
+margin_bottom = -58.0
+custom_fonts/font = SubResource( 9 )
+text = "Player            Dealer"
+
+[node name="StayButton" parent="YSort/Buttons" instance=ExtResource( 13 )]
+position = Vector2( 360, 447 )
+
 [node name="Label2" type="Label" parent="."]
 margin_left = 328.0
 margin_top = 311.638
@@ -550,3 +694,24 @@ margin_right = 368.0
 margin_bottom = 335.638
 custom_fonts/font = SubResource( 4 )
 text = "柱"
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="HealthUI" parent="HUD" instance=ExtResource( 9 )]
+
+[node name="MoneyUI" type="Control" parent="HUD"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="MoneyLabel" type="Label" parent="HUD/MoneyUI"]
+margin_top = 10.0
+margin_right = 98.0
+margin_bottom = 40.0
+rect_scale = Vector2( 0.6, 0.6 )
+custom_colors/font_color = Color( 0.937255, 0.8, 0.0588235, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 7 )
+text = "$300"
+script = ExtResource( 8 )
+
+[editable path="HUD/HealthUI"]

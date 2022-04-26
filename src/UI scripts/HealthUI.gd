@@ -7,6 +7,7 @@ onready var heartUIFull = $HeartUIFull
 onready var heartUIEmpty = $HeartUIEmpty
 
 var card = load("res://src/Object scripts/HitButton.gd")
+var stat = PlayerStats
 
 func set_hearts(value):
 	hearts = clamp(value, 0, max_hearts)
