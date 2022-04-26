@@ -177,8 +177,11 @@ ___
 ## Sprint 3
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
+Project is: in-progess
+- Brandon:
+- Ronny:
+- Galo:
+- James: I would like to continue working on this project as a hobby and hope to someday implement a multiplayer element.
 ## Contributions
 
 - **Brandon**: "ree"
@@ -205,22 +208,31 @@ Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are
 	- `Jira Task:`
 		-                             
 <br />
-- **James**: "Added a Start Screen scene and accompanying script, worked on researching player/NPC pathing (to be implemented in future sprint)."
-	- `Jira Task: Implement `
-		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/StartScreen.gd
-	- `Jira Task: Money system`
-		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Sprites/World%20Sprites/coin.png
-		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/Coin.gd
+- **James**: "I connected the player's wallet to update accordingly to the outcome of a game. I also added an alternate "Game Over" screen."
+	- `Jira Task: Add Alternate Game Over Screen  `
+		-Artifact:
+			https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/UI%20scripts/GameOverBroke.gd
+		-Artifact:
+			https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Sprites/World%20Sprites/no_money_meme.png
+	- `Jira Task: Money System (Part 2)`
+		-Artifact: 
+			https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Main.gd
+		-Artifact:
+			https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/HitButton.gd
+		-Artifact:
+			https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/UI%20scripts/MoneyLabel.gd
 
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 - Brandon:
 - Ronny:
 - Galo:
-- James:
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- James: I can improve by continuing to familiarize myself with proper object-oriented design techniques and re-reading the Godot Docs.
+TODOS
+- Brandon:
+- Ronny:
+- Galo:
+- James: Design and implement a custom gambling amount feature.
 
 ## Acknowledgements
 - This project was based on [this tutorial](https://www.youtube.com/watch?v=mAbG8Oi-SvQ&list=PL9FzW-m48fn2SlrW0KoLT4n5egNdX-W9a).
