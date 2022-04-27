@@ -195,13 +195,13 @@ Project is: in-progess
 - **Ronaldo**: "I had the cards appeared in the game with their values showing up in the code itself."
 	- `Jira Task: Set 52 card visual`
 		-Artifact:
-			https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Cards/
+			https://bitbucket.org/cs3398-s22-io/blackjack_2d/branch/P2-52-cards-have-actual-values
 	- `Jira Task: Cards needed to appear`
 		-Artifact:
-			https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/HitButton.gd
+			https://bitbucket.org/cs3398-s22-io/blackjack_2d/branch/P2-39-cards-needed-to-appear
 	- `Jira Task: Cards have actual values`
 		-Artifact:
-			https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/HitButton.gd                          
+			https://bitbucket.org/cs3398-s22-io/blackjack_2d/branch/P2-52-cards-have-actual-values                          
 <br />
 - **Galo**: "ree"
 	- `Jira Task:`
