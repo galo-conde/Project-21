@@ -179,7 +179,7 @@ ___
 ## Project Status
 Project is: in-progess
 - Brandon:
-- Ronny:
+- Ronny: I would like to continue working on this project at some point in the future (hopefully close) so we can see the completed version of the game.
 - Galo:
 - James: I would like to continue working on this project as a hobby and hope to someday implement a multiplayer element.
 ## Contributions
@@ -192,13 +192,16 @@ Project is: in-progess
 	- `Jira Task:`
 		-                             
 <br />
-- **Ronaldo**: "ree"
-	- `Jira Task:`
-		-
-	- `Jira Task:`
-		- 
-	- `Jira Task:`
-		-                             
+- **Ronaldo**: "I had the cards appeared in the game with their values showing up in the code itself."
+	- `Jira Task: Set 52 card visual`
+		-Artifact:
+			https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Cards/
+	- `Jira Task: Cards needed to appear`
+		-Artifact:
+			https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/HitButton.gd
+	- `Jira Task: Cards have actual values`
+		-Artifact:
+			https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/HitButton.gd                          
 <br />
 - **Galo**: "ree"
 	- `Jira Task:`
@@ -225,12 +228,12 @@ Project is: in-progess
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 - Brandon:
-- Ronny:
+- Ronny: I can improve in getting more familiar with the Godot code itself.
 - Galo:
 - James: I can improve by continuing to familiarize myself with proper object-oriented design techniques and re-reading the Godot Docs.
 TODOS
 - Brandon:
-- Ronny:
+- Ronny: Adding more cards to appear during the game and custom cards.
 - Galo:
 - James: Design and implement a custom gambling amount feature.
 
