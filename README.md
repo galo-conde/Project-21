@@ -185,12 +185,11 @@ Project is: in-progess
 ## Contributions
 
 - **Brandon**: "ree"
-	- `Jira Task:`
-		-
-	- `Jira Task:`
-		- 
-	- `Jira Task:`
-		-                             
+	- **JiraTask**: [P2-24](https://cs3398s22io.atlassian.net/browse/P2-24): `Create new level` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/8dd9894760d0e8d8c5070b0fb7dd33e565446b55/Levels/Level2.tscn?at=feature%2FP2-24-create-new-level
+	- **JiraTask**: [P2-23](https://cs3398s22io.atlassian.net/browse/P2-23): `load a different level from menu` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/055dd5f301e1202d60833ad8f84722d049128b26/UI/LevelMenu.tscn?at=feature%2FP2-23-load-a-different-level-from-menu
+	- **JiraTask**: [P2-25](https://cs3398s22io.atlassian.net/browse/P2-25): `finish level design, and menu options in the game.` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/0073c1466c7afcdd6fee992af2d94d1e2154483b/GUI/GUI.tscn?at=feature%2FP2-25-finish-level-design-and-menu-optio
+	- **JiraTask**: [P2-55](https://cs3398s22io.atlassian.net/browse/P2-55): `Add Ai to the other Levels` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/3ff252868f3b5a5abdddd596e0f17f11c576eead/Levels/?at=feature%2FP2-55-when-dealer-hit-all-bouncers-attac
+<br />
 <br />
 - **Ronaldo**: "I had the cards appeared in the game with their values showing up in the code itself."
 	- `Jira Task: Set 52 card visual`
@@ -254,9 +253,3 @@ TODOS
 ## Contact
 Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
