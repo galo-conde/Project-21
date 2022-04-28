@@ -56,7 +56,7 @@ config/icon="res://Sprites/World Sprites/icon.png"
 
 [autoload]
 
-DeckManager="*res://DeckManager.gd"
+DeckManager="*res://src/DeckManager.gd"
 PlayerStats="*res://PlayableCharacters/PlayerStats.tscn"
 Gui="*res://GUI/GUI.tscn"
 

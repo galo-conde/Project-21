@@ -1,6 +1,6 @@
 [gd_scene load_steps=16 format=2]
 
-[ext_resource path="res://Dealer2.gd" type="Script" id=1]
+[ext_resource path="res://src/Actor scripts/Dealer2.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/Dealer Sprites/Right leg up Dealer.png" type="Texture" id=2]
 [ext_resource path="res://Sprites/Dealer Sprites/Standing still Dealer.png" type="Texture" id=3]
 [ext_resource path="res://Sprites/Dealer Sprites/Left leg up Dealer.png" type="Texture" id=4]
@@ -9,6 +9,7 @@
 [ext_resource path="res://OverLap/SoftCollision.tscn" type="PackedScene" id=7]
 [ext_resource path="res://EnemyNPC/PlayerDetectionZone.tscn" type="PackedScene" id=8]
 [ext_resource path="res://OverLap/HitBox.tscn" type="PackedScene" id=9]
+
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 8.0
