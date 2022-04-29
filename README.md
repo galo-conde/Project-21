@@ -211,27 +211,27 @@ ___
 
 ## Contributions
 
-- **Brandon**: "I was in charge of menu design and functionality, as well as expanding the amount of levels avaible."
+- **Brandon**: "I was in charge of menu design and functionality, as well as expanding the amount of levels available."
 	- **JiraTask:** [P2-24](https://cs3398s22io.atlassian.net/browse/P2-24): `Create new level` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/8dd9894760d0e8d8c5070b0fb7dd33e565446b55/Levels/Level2.tscn?at=feature%2FP2-24-create-new-level
 	- **JiraTask:** [P2-23](https://cs3398s22io.atlassian.net/browse/P2-23): `load a different level from menu` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/055dd5f301e1202d60833ad8f84722d049128b26/UI/LevelMenu.tscn?at=feature%2FP2-23-load-a-different-level-from-menu
 	- **JiraTask:** [P2-25](https://cs3398s22io.atlassian.net/browse/P2-25): `finish level design, and menu options in the game.` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/0073c1466c7afcdd6fee992af2d94d1e2154483b/GUI/GUI.tscn?at=feature%2FP2-25-finish-level-design-and-menu-optio
 	- **JiraTask:** [P2-55](https://cs3398s22io.atlassian.net/browse/P2-55): `Add Ai to the other Levels` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/3ff252868f3b5a5abdddd596e0f17f11c576eead/Levels/?at=feature%2FP2-55-when-dealer-hit-all-bouncers-attac
 <br />
 <br />
-- **Ronaldo**: "I had the cards appeared in the game with their values showing up in the code itself."
+- **Ronaldo**: "I had the cards appear in the game with their values showing up in the editor."
 	- **Jira Task:**[P2-53](https://cs3398s22io.atlassian.net/browse/P2-53) `Set 52 card visual` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/4c378f16412053d6bdbc756356443534af68f438/Cards/?at=P2-53-set-52-cards-visual
 	- **Jira Task:**[P2-39](https://cs3398s22io.atlassian.net/browse/P2-39) `Cards needed to appear` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/17fc2077dd4920052e06b12c7d8570b9797f4965/Main.tscn?at=P2-39-cards-needed-to-appear
 	- **Jira Task:**[P2-52](https://cs3398s22io.atlassian.net/browse/P2-52) `Cards have actual values` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/31556a1906b5e67dfb8e6c0964cbf4b09da69404/src/Object%20scripts/HitButton.gd?at=P2-52-cards-have-actual-values
 <br />
 <br />
-- **Galo**: "I managed the backend implementation of blackjack, and how it would communicate with the frontend."
+- **Galo**: "I managed the backend implementation of playing hands of blackjack within the casino, and how its backend communicates with the frontend."
 	- **Jira Task:**[P2-57](https://cs3398s22io.atlassian.net/browse/P2-57) `implement blackjack game winner` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/1f9c33646078593be391be8750aa8dc46d434306/src/Object%20scripts/HitButton.gd?at=P2-57-implement-blackjack-game-winner
 		- Artifact 2: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/1f9c33646078593be391be8750aa8dc46d434306/src/Object%20scripts/StayButton.gd?at=P2-57-implement-blackjack-game-winner
 		- Artifact 3: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/1f9c33646078593be391be8750aa8dc46d434306/DeckManager.gd?at=P2-57-implement-blackjack-game-winner
 		- Artifact 4: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/1f9c33646078593be391be8750aa8dc46d434306/Objects/Buttons/LabelTimer.gd?at=P2-57-implement-blackjack-game-winner
 <br />                         
 <br />
-- **James**: "I connected the player's wallet to update accordingly to the outcome of a game. I also added an alternate "Game Over" screen."
+- **James**: "I connected the player's wallet (displayed in the HUD) to update accordingly to the outcome of a game. I also added an alternate 'Game Over' screen."
 	- **Jira Task:** [P2-19](https://cs3398s22io.atlassian.net/browse/P2-19) `Add Alternate Game Over Screen` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/e1e903d1c2a6efc15f99c9c85f98d0b7db310e4f/UI/GameOverBroke.tscn?at=feature%2FP2-19-add-alternate-game-over-screen
 		- Artifact 2:
 		https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Sprites/World%20Sprites/no_money_meme.png
@@ -244,36 +244,36 @@ ___
 - Brandon
 	- For the levels, I would increase the depth of traversal, like going outside and implementing more interactive elements.
 	- Implement sounds in the game, like hit, walk, and destroy sound effects.
-	- Add visual health bars to show how much health enemy AI has.
+	- Add visual health bars to show how much health an enemy AI has.
 - Ronaldo
 	- Expand upon enemy sprites like detail and animation.
 	- Find sound effects for the improved Enemy sprites.
 	- Would actually want to complete the game.
 - Galo
-	- Find a way for the cards to stack, to visually tell you how many cards you have on hand.
-	- Make the dealer's cards only show after the player hits the stay button.
+	- Find a way for the cards to stack; to visually tell you how many cards you have on hand.
+	- Make the dealer's cards only show after the player hits the "stay" button.
 	- Add a simple counter on the Ui that shows you how close you are to 21.
 - James
-	- Fix the position depth of the animated coin, so that the player can physically be behind or in front of the coin.
-	- Find a money effect when you win a hand and a money loss effect when the player loses the bet.
+	- Fix the position depth of the animated coin, so that the player model can accurately be behind or in front of the coin.
+	- Find a money effect when you win a hand and a money loss effect when the player loses.
 	- Implement a way for the player to move on to the next room when you win enough hands.
 
 <a name="room-for-improvement"></a>
 ___
 
 ## Room for Improvement
-- This was everybody’s first time making a game as a project, and the ambition was greater than our game development capabilities.
-- Godot’s documentation is limited and sparse; we really had to study the documentation and experiment with code to get a solution most of the time.
-- The Godot Engine community is small, which means we as a group really went into this project blind with vague online solutions scattered across the internet. We had to engineer new ways to get the features working, which was very time consuming. 
-- Learning how to animate and the connection of animation to game code took all members a considerable amount of time.
+- This was everybody’s first time making a game as a project, and our ambition exceeded our game development capabilities.
+- Godot’s documentation is limited and sparse; the lack of guidance left us to largely experimenting with code to solve problems.
+- The Godot Engine community is small, which means we really went into this project blind with vague online solutions scattered across the Internet.
+- Learning how to animate and the connection of animation to code took us a considerable amount of time.
 
 
 ## Project Status
 Project is: in-progess
-- Brandon: I whish I was better at game development, so that this game can be more awsome.
+- Brandon: I wish I was better at game development, so that this game can be more awesome.
 - Ronny: I would like to continue working on this project at some point in the future (hopefully close) so we can see the completed version of the game.
 - Galo:
-- James: I would like to continue working on this project as a hobby and hope to someday implement a multiplayer element.
+- James: I will continue working on this project as a hobby. I also wish to eventually implement a multiplayer element for the game.
 
 <a name="acknowledgements"></a>
 __
