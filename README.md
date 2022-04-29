@@ -184,7 +184,7 @@ Project is: in-progess
 - James: I would like to continue working on this project as a hobby and hope to someday implement a multiplayer element.
 ## Contributions
 
-- **Brandon**: "I was in charge of level and menu design"
+- **Brandon**: "I was in charge of level and menu design."
 	- **JiraTask:** [P2-24](https://cs3398s22io.atlassian.net/browse/P2-24): `Create new level` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/8dd9894760d0e8d8c5070b0fb7dd33e565446b55/Levels/Level2.tscn?at=feature%2FP2-24-create-new-level
 	- **JiraTask:** [P2-23](https://cs3398s22io.atlassian.net/browse/P2-23): `load a different level from menu` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/055dd5f301e1202d60833ad8f84722d049128b26/UI/LevelMenu.tscn?at=feature%2FP2-23-load-a-different-level-from-menu
 	- **JiraTask:** [P2-25](https://cs3398s22io.atlassian.net/browse/P2-25): `finish level design, and menu options in the game.` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/0073c1466c7afcdd6fee992af2d94d1e2154483b/GUI/GUI.tscn?at=feature%2FP2-25-finish-level-design-and-menu-optio
@@ -197,13 +197,12 @@ Project is: in-progess
 	- **Jira Task:**[P2-52](https://cs3398s22io.atlassian.net/browse/P2-52) `Cards have actual values` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/31556a1906b5e67dfb8e6c0964cbf4b09da69404/src/Object%20scripts/HitButton.gd?at=P2-52-cards-have-actual-values
 <br />
 <br />
-- **Galo**: "ree"
-	- `Jira Task:`
-		-
-	- `Jira Task:`
-		- 
-	- `Jira Task:`
-		-                             
+- **Galo**: "I managed the backend implementation of blackjack."
+	- **Jira Task:**[P2-57](https://cs3398s22io.atlassian.net/browse/P2-57) `implement blackjack game winner` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/1f9c33646078593be391be8750aa8dc46d434306/src/Object%20scripts/HitButton.gd?at=P2-57-implement-blackjack-game-winner
+		- Artifact 2: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/1f9c33646078593be391be8750aa8dc46d434306/src/Object%20scripts/StayButton.gd?at=P2-57-implement-blackjack-game-winner
+		- Artifact 3: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/1f9c33646078593be391be8750aa8dc46d434306/DeckManager.gd?at=P2-57-implement-blackjack-game-winner
+		- Artifact 4: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/1f9c33646078593be391be8750aa8dc46d434306/Objects/Buttons/LabelTimer.gd?at=P2-57-implement-blackjack-game-winner
+<br />                         
 <br />
 - **James**: "I connected the player's wallet to update accordingly to the outcome of a game. I also added an alternate "Game Over" screen."
 	- **Jira Task:** [P2-19](https://cs3398s22io.atlassian.net/browse/P2-19) `Add Alternate Game Over Screen` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/e1e903d1c2a6efc15f99c9c85f98d0b7db310e4f/UI/GameOverBroke.tscn?at=feature%2FP2-19-add-alternate-game-over-screen
@@ -213,6 +212,25 @@ Project is: in-progess
 		- Artifact 2: 
 		https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/75d38c825351996078ab4bb6cab58d1901e39c0d/src/Object%20scripts/HitButton.gd?at=feature%2FP2-41-money-system
 	- **Jira Task:** [P2-58](https://cs3398s22io.atlassian.net/browse/P2-58) `Bouncers drop money on death` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/7daf7baf58089ce04de27afe10be2f4fdc89edb8/Objects/Coin.tscn?at=feature%2FP2-58-bouncers-drop-money-on-death
+
+## Next Steps
+- Brandon
+	- 
+	- 
+	- 
+- Ronaldo
+	- 
+	- 
+	- 
+- Galo
+	- 
+	- 
+	- 
+- James
+	- 
+	- 
+	- 
+
 
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
