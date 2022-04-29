@@ -7,31 +7,31 @@ Authors: Brandon Abundis, Ronaldo Amaya, Galo Conde, James Helgren
 [](https://imgur.com/SiEPvaH)
 
 ## Overview
-TeamIO was formed during the Spring 2022 semester at Texas State University with the goal of building a game around the aspect of gambling in a non-traditional way that truly shows how ridiculous gambling really is. This game can be enjoyed by a wide variety of people, including those not particularly experienced in gambling.
+Team IO was formed during the Spring 2022 semester at Texas State University with the goal of building a game around the aspect of gambling in a non-traditional way that truly shows how ridiculous gambling really is. This game can be enjoyed by a wide variety of people, including those not particularly experienced in gambling.
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
+* [General Info](#general)
 * [Features](#features)
-* [Screenshots](#screenshots)
 * [Setup](#setup)
-* [Usage](#usage)
-* [Project Status](#project-status)
+* [Sprint 1](#sprint1)
+* [Sprint 2](#sprint2)
+* [Sprint 3](#sprint3)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
 <!-- * [License](#license) -->
 
+<a name="general"></a>
 
+__
 ## General Information
 TeamIO is comprised of Brandon Abundis, Ronaldo Amaya, Galo Conde, and James Helgren.
 
-In effort of making the game more appealing to non-gamblers we modified the rules of traditional Black Jack and then placing those rules into a game that doesn't even resembel a traditional Black Jaack Game, where players can interact with objects that show cards and bouncers who try to get you out when playing againts oppenents during gameplay. There is also absurd events that can happen that could break the Black Jack game like uno taking over. Think BlackJack, Uno, and PacMan had baby.
+In the effort of making the game more appealing to non-gamblers, we modified the rules of traditional BlackJack and then placed those rules into a game that doesn't even resemble a traditional Black Jack Game, where players can interact with objects that show cards and bouncers who try to get you out when playing against opponents during gameplay. There are also absurd events that can happen that could break the BlackJack game like UNO taking over. Think BlackJack, Uno, and PacMan had a baby.
 
-After making the game more appealing to a larger audience the secondary goal of our gaming platform was to provide the excitement of making wagers with friends without promoting detrimental side effects such as gambling addiction. To this end we developed a ranking system by which players, before gameplay begins,  can quickly cast votes to quantify the value of non-monetary prices (e.g. cooking dinner, ride to school, etc), distribute credits amongst players according the agreed value of the favor their are waging, and use the respectively allotted credits in wagers. Thus, users can feel the excitement of gambling without the stress of waging and potentially losing real money. 
+After making the game more appealing to a larger audience the secondary goal of our gaming platform was to provide the excitement of making wagers with friends without promoting detrimental side effects such as gambling addiction. To this end we developed a ranking system by which players, before gameplay begins,  can quickly cast votes to quantify the value of non-monetary prices (e.g. cooking dinner, riding to school, etc), distribute credits amongst players according to the agreed value of the favor they are waging, and use the respectively allotted credits in wagers. Thus, users can feel the excitement of gambling without the stress of waging and potentially losing real money. 
 
-Our intetion was to create a fun game for everyone to play 21 without having to pay real money and without trying to risk them getting addicted to that game.
+We intended to create a fun game for everyone to play 21 without having to pay real money and without trying to risk them getting addicted to that game.
 
 
 ## Technologies Used
@@ -40,30 +40,60 @@ Our intetion was to create a fun game for everyone to play 21 without having to 
 - GitKraken
 - Youtube
 
+<a name="features"></a>
+
+__
 ## Features
 - Game functionality for the BlackJack game with a twist: 
-	* The JackBlack game is not nessesarly a proper blackjack game, but it has the premise of one.
-	* There are scenes in godot that do a veraity of things from being the game world, to just being stats place holder for a node.
-	* Scripts are not scenes, but are necessary component for the whole function of the game.
+	* This version of a JackBlack game is not necessarily a traditional adaptation of blackjack, but it at its core, it shares the features of one.
+	* In Godot there are scenes that are the fundamental canvsas of the front end, everything you see is a scene that is loaded with a finite amount of nodes that represent objects in that scene.
+	* Scripts are the backend of this game, and interaction that these node perform on the frontend are dependent on the scripts to compile correctly.
 - The visual look of the game
-	* There are multiple png files called sprites holding templates for character movement and static world objects
-	* Animimation is an important factor to scenes as they use sprites to convey life to enemy scenes and random object exploding.
+	* There are multiple png files called sprites holding templates for character movement and static world objects.
+	* Animation is an important factor in scenes as they use sprites to convey life to enemy scenes and random objects exploding.
 
+<a name="setup"></a>
+___
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+- **Requirements**
+	- `OS:`
+		- Windows 7 or newer, macOS 10.10 or newer, Linux (64-bit or 32-bit x86).
+		- Hardware supporting OpenGL 3.3 Core Profile.
+	- `harware:`
+		- AMD Radeon HD 7000 series GPU or newer, "6000 series is maybe possible."
+		- NVIDIA GeForce 8 series GPU or newer.
+		- Intel 3rd generation (Ivy Bridge) series GPU or newer.
+	- `application:`
+		- Install the [Godot Engine](https://godotengine.org/download/windows)
+		- Could also be installed through the Steam application, which is an online distribution service.
+<br />
+__
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+
+- **How to run!**
+	- `Step 1: Godot UI`
+	    - ![](https://i.imgur.com/CbWllhq.gif)
+		- Open the Godot application 
+		- In the initial Godot menu, there should be a button called `import` on the far-middle right of the screen, and click it.
+		- There will be a prompt to *Import Existing Project*, in which you will click the `Browse` button and navigate to where you cloned the repo.
+		- When you have navigated to the cloned repo file location, it is **Important** to find a file called `project.godot`, then you will double click on that file.
+		- You will be sent back to the prompt, and there should be a green checkmark to indicate that Godot recognizes this file as legitimate.
+		- Then you will click on the `Import and Edit` button.
+		- Congrats, you opened the games editor.
+	- `Step 2: How to run the Game!`
+		- ![](https://i.imgur.com/2OhVhjl.gif)
+		- After successfully following step 1, you will be sent to the games editor.
+		- On the very far top-right of the screen, you will see buttons that look like play, pause, and stop in this order.
+		- You will click on the play button, which is a sideways triangle, and the game will compile and start.
+		- Now that the game is running, you will navigate the menu using the arrow keys, or the `W-A-S-D` keys.
+		- The `Space` key is the input and attack button, the only exception is the level menu, which is the `E` key.
+		- The `Tab` key will show a pop-up menu to exit the game when stuck.
 
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
-
-
+<a name="sprint1"></a>
 ___
+
 ## Sprint 1
 ![](https://i.imgur.com/kEL3uPn.jpg)
 ![](https://i.imgur.com/Z2nK0C1.jpg)
@@ -73,7 +103,7 @@ ___
 `Research` file direct link: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Research%20Folder/RESEARCH
 
 ## Contributions
-- **Brandon**: "Added multiple scripts that focused on the player to give the gameplay a fundation to work on."
+- **Brandon**: "Added multiple scripts that focused on the player to give the gameplay a foundation to work on."
 	- `Jira Task: Add player hearts in UI`
 		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/UI%20scripts/HealthUI.gd
 	- `Jira Task: create a dumb npc`
@@ -86,13 +116,13 @@ ___
 		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/GameOver.tscn
 		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/GUI%20scripts/GameOver.gd  
 <br />
-- **Galo**: "Added scripts that implements card deck functionality and assigns card values to dealer and player1 once then have destroyed a box." 
+- **Galo**: "Added scripts that implements card deck functionality and assign card values to dealer and player1 once then have destroyed a box." 
 	- `Jira Task: add card deck functionality`
 		- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Cards/Cards.gd
 	- `Jira Task: Wood box display card value`
 		- URL reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/WoodBox.gd  
 <br />	
-- **James**: "Added a Start Screen scene and accompanying script, worked on researching player/NPC pathing (to be implemented in future sprint)."
+- **James**: "Added a Start Screen scene and accompanying script, worked on researching player/NPC pathing (to be implemented in the future sprint)."
 	- `Jira Task: *create start screen*`
 		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/StartScreen.tscn
 		- reference: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/GUI%20scripts/StartScreen.gd
@@ -107,6 +137,7 @@ ___
 	- find a way to display the start
 - Ronaldo
 	- make a visual bouncer as the enemy
+<a name="sprint2"></a>
 ___
 
 ## Sprint 2
@@ -139,7 +170,7 @@ ___
 		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Sprites/Dealer%20Sprites/
 		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Dealer2.gd
 <br />
-- **Galo**: "Added scripts that implements card deck functionality and assigns card values to dealer and player1 once then have destroyed a box." 
+- **Galo**: "Added scripts that implement card deck functionality and assign card values to dealer and player1 once then have destroyed a box." 
 	- `Jira Task: Find proper visual buttons`
 		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/galo/Sprites/World%20Sprites/
 	- `Jira Task: Buttons when hit stay down for a second`
@@ -148,7 +179,7 @@ ___
 	- `Jira Task: Button mechanic that shows card value on screen`
 		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/UI%20scripts/HealthUI.gd                                                                                                                                                  
 <br />	
-- **James**: "Added a Start Screen scene and accompanying script, worked on researching player/NPC pathing (to be implemented in future sprint)."
+- **James**: "Added a Start Screen scene and accompanying script, worked on researching player/NPC pathing (to be implemented in a future sprint)."
 	- `Jira Task: Implement Start Screen`
 		- Artifact: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/GUI/StartScreen.gd
 	- `Jira Task: Money system`
@@ -157,31 +188,27 @@ ___
 ## Next Steps
 - Galo
 	- Going to have to improve the code that allows the cards to be given to the dealer and player.
-	- Will have to implement the card dealing to the new button implementaion.
+	- Will have to implement the card dealing with the new button implementation.
 	- Find a way to get the cards to visually show up on the screen somehow.
 - Brandon
-	- Create a new level area, or to make a new scene at least.
-	- If making a new scene is too much, then implement a door mechanic for new room.
-	- Somehow finish the game, or at least have a fun to play game working.
+	- Create a new level area, or make a new scene at least.
+	- If making a new scene is too much, then implement a door mechanic for a new room.
+	- Somehow finish the game, or at least have a fun playing game working.
 - James
 	- Finish the money system, as it was much harder in scope than I thought.
 	- Place coins in boxes, so that the player can gain more money.
 	- Have the amount of money the player has show in the UI.
 - Ronaldo
-	- finds some sprites for card, so that they may be displayed visually.
+	- finds some sprites for all 52 cards, so that they may be displayed visually.
 	- might have to make more custom sprites for the game, or improve the detail of the current ones.
 	- find more casino furniture sprites to give the world more consistency
-
+<a name="sprint3"></a>
 ___
 
 ## Sprint 3
 
-## Project Status
-Project is: in-progess
-- Brandon:
-- Ronny: I would like to continue working on this project at some point in the future (hopefully close) so we can see the completed version of the game.
-- Galo:
-- James: I would like to continue working on this project as a hobby and hope to someday implement a multiplayer element.
+`Research` file direct link: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Research%20Folder/RESEARCH
+
 ## Contributions
 
 - **Brandon**: "I was in charge of level and menu design."
@@ -215,22 +242,24 @@ Project is: in-progess
 
 ## Next Steps
 - Brandon
-	- 
-	- 
-	- 
+	- For the levels, I would increase the depth of traversal, like going outside and implementing more interactive elements.
+	- Implement sounds in the game, like hit, walk, and destroy sound effects.
+	- Add visual health bars to show how much health enemy AI has.
 - Ronaldo
-	- 
-	- 
-	- 
+	- Expand upon enemy sprites like detail and animation.
+	- Find sound effects for the improved Enemy sprites.
+	- Would actually want to complete the game.
 - Galo
-	- 
-	- 
-	- 
+	- Find a way for the cards to stack, to visually tell you how many cards you have on hand.
+	- Make the dealer's cards only show after the player hits the stay button.
+	- Add a simple counter on the Ui that shows you how close you are to 21.
 - James
-	- 
-	- 
-	- 
+	- Fix the position depth of the animated coin, so that the player can physically be behind or in front of the coin.
+	- Find a money effect when you win a hand and a money loss effect when the player loses the bet.
+	- Implement a way for the player to move on to the next room when you win enough hands.
 
+<a name="room-for-improvement"></a>
+___
 
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
@@ -243,6 +272,17 @@ TODOS
 - Ronny: Adding more cards to appear during the game and custom cards.
 - Galo:
 - James: Design and implement a custom gambling amount feature.
+
+
+## Project Status
+Project is: in-progess
+- Brandon: I whish I was better at game development, so that this game can be more awsome.
+- Ronny: I would like to continue working on this project at some point in the future (hopefully close) so we can see the completed version of the game.
+- Galo:
+- James: I would like to continue working on this project as a hobby and hope to someday implement a multiplayer element.
+
+<a name="acknowledgements"></a>
+__
 
 ## Acknowledgements
 - This project was based on [this tutorial](https://www.youtube.com/watch?v=mAbG8Oi-SvQ&list=PL9FzW-m48fn2SlrW0KoLT4n5egNdX-W9a).
