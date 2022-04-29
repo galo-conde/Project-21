@@ -130,5 +130,5 @@ Research for Sprint 3:
 	                        get_tree().quit()
 	
         • This implementation is short and sweet, when the tab key is pressed, then the game pauses and the ui gives you options to click on 
-        • the tasks depending on this research task: https://cs3398s22io.atlassian.net/browse/P2-25
+        • the tasks depending on this research: https://cs3398s22io.atlassian.net/browse/P2-25
         
