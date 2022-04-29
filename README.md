@@ -185,16 +185,16 @@ Project is: in-progess
 ## Contributions
 
 - **Brandon**: "I was in charge of level and menu design"
-	- **JiraTask**: [P2-24](https://cs3398s22io.atlassian.net/browse/P2-24): `Create new level` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/8dd9894760d0e8d8c5070b0fb7dd33e565446b55/Levels/Level2.tscn?at=feature%2FP2-24-create-new-level
-	- **JiraTask**: [P2-23](https://cs3398s22io.atlassian.net/browse/P2-23): `load a different level from menu` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/055dd5f301e1202d60833ad8f84722d049128b26/UI/LevelMenu.tscn?at=feature%2FP2-23-load-a-different-level-from-menu
-	- **JiraTask**: [P2-25](https://cs3398s22io.atlassian.net/browse/P2-25): `finish level design, and menu options in the game.` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/0073c1466c7afcdd6fee992af2d94d1e2154483b/GUI/GUI.tscn?at=feature%2FP2-25-finish-level-design-and-menu-optio
-	- **JiraTask**: [P2-55](https://cs3398s22io.atlassian.net/browse/P2-55): `Add Ai to the other Levels` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/3ff252868f3b5a5abdddd596e0f17f11c576eead/Levels/?at=feature%2FP2-55-when-dealer-hit-all-bouncers-attac
+	- **JiraTask:** [P2-24](https://cs3398s22io.atlassian.net/browse/P2-24): `Create new level` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/8dd9894760d0e8d8c5070b0fb7dd33e565446b55/Levels/Level2.tscn?at=feature%2FP2-24-create-new-level
+	- **JiraTask:** [P2-23](https://cs3398s22io.atlassian.net/browse/P2-23): `load a different level from menu` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/055dd5f301e1202d60833ad8f84722d049128b26/UI/LevelMenu.tscn?at=feature%2FP2-23-load-a-different-level-from-menu
+	- **JiraTask:** [P2-25](https://cs3398s22io.atlassian.net/browse/P2-25): `finish level design, and menu options in the game.` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/0073c1466c7afcdd6fee992af2d94d1e2154483b/GUI/GUI.tscn?at=feature%2FP2-25-finish-level-design-and-menu-optio
+	- **JiraTask:** [P2-55](https://cs3398s22io.atlassian.net/browse/P2-55): `Add Ai to the other Levels` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/3ff252868f3b5a5abdddd596e0f17f11c576eead/Levels/?at=feature%2FP2-55-when-dealer-hit-all-bouncers-attac
 <br />
 <br />
 - **Ronaldo**: "I had the cards appeared in the game with their values showing up in the code itself."
-	- **Jira Task**:[P2-53](https://cs3398s22io.atlassian.net/browse/P2-53) `Set 52 card visual` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/4c378f16412053d6bdbc756356443534af68f438/Cards/?at=P2-53-set-52-cards-visual
-	- **Jira Task**:[P2-39](https://cs3398s22io.atlassian.net/browse/P2-39) `Cards needed to appear` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/17fc2077dd4920052e06b12c7d8570b9797f4965/Main.tscn?at=P2-39-cards-needed-to-appear
-	- **Jira Task**:[P2-52](https://cs3398s22io.atlassian.net/browse/P2-52) `Cards have actual values` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/31556a1906b5e67dfb8e6c0964cbf4b09da69404/src/Object%20scripts/HitButton.gd?at=P2-52-cards-have-actual-values
+	- **Jira Task:**[P2-53](https://cs3398s22io.atlassian.net/browse/P2-53) `Set 52 card visual` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/4c378f16412053d6bdbc756356443534af68f438/Cards/?at=P2-53-set-52-cards-visual
+	- **Jira Task:**[P2-39](https://cs3398s22io.atlassian.net/browse/P2-39) `Cards needed to appear` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/17fc2077dd4920052e06b12c7d8570b9797f4965/Main.tscn?at=P2-39-cards-needed-to-appear
+	- **Jira Task:**[P2-52](https://cs3398s22io.atlassian.net/browse/P2-52) `Cards have actual values` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/31556a1906b5e67dfb8e6c0964cbf4b09da69404/src/Object%20scripts/HitButton.gd?at=P2-52-cards-have-actual-values
 <br />
 <br />
 - **Galo**: "ree"
@@ -209,13 +209,10 @@ Project is: in-progess
 	- **Jira Task:** [P2-19](https://cs3398s22io.atlassian.net/browse/P2-19) `Add Alternate Game Over Screen` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/e1e903d1c2a6efc15f99c9c85f98d0b7db310e4f/UI/GameOverBroke.tscn?at=feature%2FP2-19-add-alternate-game-over-screen
 		- Artifact 2:
 		https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Sprites/World%20Sprites/no_money_meme.png
-	- `Jira Task: Money System (Part 2)`
-		- Artifact: 
-			https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Main.gd
-		- Artifact:
-			https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/Object%20scripts/HitButton.gd
-		- Artifact:
-			https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/src/UI%20scripts/MoneyLabel.gd
+	- **Jira Task:** [P2-41](https://cs3398s22io.atlassian.net/browse/P2-41) `Money System` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/75d38c825351996078ab4bb6cab58d1901e39c0d/src/UI%20scripts/MoneyLabel.gd?at=feature%2FP2-41-money-system
+		- Artifact 2: 
+		https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/75d38c825351996078ab4bb6cab58d1901e39c0d/src/Object%20scripts/HitButton.gd?at=feature%2FP2-41-money-system
+	- **Jira Task:** [P2-58](https://cs3398s22io.atlassian.net/browse/P2-58) `Bouncers drop money on death` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/7daf7baf58089ce04de27afe10be2f4fdc89edb8/Objects/Coin.tscn?at=feature%2FP2-58-bouncers-drop-money-on-death
 
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
