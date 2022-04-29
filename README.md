@@ -211,7 +211,7 @@ ___
 
 ## Contributions
 
-- **Brandon**: "I was in charge of level and menu design."
+- **Brandon**: "I was in charge of menu design and functionality, as well as expanding the amount of levels avaible."
 	- **JiraTask:** [P2-24](https://cs3398s22io.atlassian.net/browse/P2-24): `Create new level` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/8dd9894760d0e8d8c5070b0fb7dd33e565446b55/Levels/Level2.tscn?at=feature%2FP2-24-create-new-level
 	- **JiraTask:** [P2-23](https://cs3398s22io.atlassian.net/browse/P2-23): `load a different level from menu` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/055dd5f301e1202d60833ad8f84722d049128b26/UI/LevelMenu.tscn?at=feature%2FP2-23-load-a-different-level-from-menu
 	- **JiraTask:** [P2-25](https://cs3398s22io.atlassian.net/browse/P2-25): `finish level design, and menu options in the game.` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/0073c1466c7afcdd6fee992af2d94d1e2154483b/GUI/GUI.tscn?at=feature%2FP2-25-finish-level-design-and-menu-optio
@@ -224,7 +224,7 @@ ___
 	- **Jira Task:**[P2-52](https://cs3398s22io.atlassian.net/browse/P2-52) `Cards have actual values` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/31556a1906b5e67dfb8e6c0964cbf4b09da69404/src/Object%20scripts/HitButton.gd?at=P2-52-cards-have-actual-values
 <br />
 <br />
-- **Galo**: "I managed the backend implementation of blackjack."
+- **Galo**: "I managed the backend implementation of blackjack, and how it would communicate with the frontend."
 	- **Jira Task:**[P2-57](https://cs3398s22io.atlassian.net/browse/P2-57) `implement blackjack game winner` - https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/1f9c33646078593be391be8750aa8dc46d434306/src/Object%20scripts/HitButton.gd?at=P2-57-implement-blackjack-game-winner
 		- Artifact 2: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/1f9c33646078593be391be8750aa8dc46d434306/src/Object%20scripts/StayButton.gd?at=P2-57-implement-blackjack-game-winner
 		- Artifact 3: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/1f9c33646078593be391be8750aa8dc46d434306/DeckManager.gd?at=P2-57-implement-blackjack-game-winner
