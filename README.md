@@ -1,14 +1,11 @@
 # Project 21
 
-![](https://i.imgur.com/I8qLz1s.jpg)
-
-
 Authors: Brandon Abundis, Ronaldo Amaya, Galo Conde, James Helgren
 [](https://imgur.com/SiEPvaH)
 
 ## Overview
 Team IO was formed during the Spring 2022 semester at Texas State University with the goal of building a game around the aspect of gambling in a non-traditional way that truly shows how ridiculous gambling really is. This game can be enjoyed by a wide variety of people, including those not particularly experienced in gambling.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> ![Live demo](https://i.imgur.com/WaraZGx.gif)
 
 ## Table of Contents
 * [General Info](#general)
@@ -207,6 +204,9 @@ ___
 
 ## Sprint 3
 
+![](https://i.imgur.com/LBu19sT.gif)
+![](https://i.imgur.com/wxSjicD.gif)
+
 `Research` file direct link: https://bitbucket.org/cs3398-s22-io/blackjack_2d/src/master/Research%20Folder/RESEARCH
 
 ## Contributions
@@ -262,16 +262,10 @@ ___
 ___
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-- Brandon:
-- Ronny: I can improve in getting more familiar with the Godot code itself.
-- Galo:
-- James: I can improve by continuing to familiarize myself with proper object-oriented design techniques and re-reading the Godot Docs.
-TODOS
-- Brandon:
-- Ronny: Adding more cards to appear during the game and custom cards.
-- Galo:
-- James: Design and implement a custom gambling amount feature.
+- This was everybody’s first time making a game as a project, and the ambition was greater than our game development capabilities.
+- Godot’s documentation is limited and sparse; we really had to study the documentation and experiment with code to get a solution most of the time.
+- The Godot Engine community is small, which means we as a group really went into this project blind with vague online solutions scattered across the internet. We had to engineer new ways to get the features working, which was very time consuming. 
+- Learning how to animate and the connection of animation to game code took all members a considerable amount of time.
 
 
 ## Project Status
@@ -297,7 +291,4 @@ __
 - HUD understanding from [kidscancode.org](https://kidscancode.org/godot_recipes/games/circle_jump/circle_jump_05/)
 - Button [Button Node](https://www.youtube.com/watch?v=OgjGnlU43Fs)
 
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
 
