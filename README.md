@@ -272,7 +272,7 @@ ___
 Project is: in-progess
 - Brandon: I wish I was better at game development, so that this game can be more awesome.
 - Ronny: I would like to continue working on this project at some point in the future (hopefully close) so we can see the completed version of the game.
-- Galo:
+- Galo: I enjoyed exploring the world of gaming with this project (my first experience) and would like to tinker with in the future to experiement with mining user-play data. 
 - James: I will continue working on this project as a hobby. I also wish to eventually implement a multiplayer element for the game.
 
 <a name="acknowledgements"></a>
