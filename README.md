@@ -260,12 +260,21 @@ ___
 
 <a name="room-for-improvement"></a>
 ___
+## Sprint 3 Wins
+- Brandon: collaboration merging different branches together to make the game whole. 
+- Ronny: learnig the godot gui and sprites better and finally implementing all apsects of the graphically
+- Galo: pull request kept everyne on track and aware of each other's committs and progress.
+- James: keeping track of bugs and hot fixes through bitbucket and jira.
 
 ## Room for Improvement
 - This was everybody’s first time making a game as a project, and our ambition exceeded our game development capabilities.
 - Godot’s documentation is limited and sparse; the lack of guidance left us to largely experimenting with code to solve problems.
 - The Godot Engine community is small, which means we really went into this project blind with vague online solutions scattered across the Internet.
 - Learning how to animate and the connection of animation to code took us a considerable amount of time.
+- Brandon: I need to learn how to use the game engine better to implement more complex levels. This would show in more rich and complex levels. 
+- Ronny: In future sprints I would learn how to make the bouncer behavior more dynamic. The instructor would see the bouncers being capable of more actions.
+- Galo: I would like become more familiarized with the graphic display aspects of godot game engine and add to the game-play display. 
+- James: I can make better use of pull request to avoid branch syncing problems. This way we can ensure merges go smoothly as a team and I could spend more time devoloping the game rather than hot fixes. 
 
 
 ## Project Status
